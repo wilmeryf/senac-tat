@@ -1,71 +1,33 @@
-# Testes de Desempenho (Benchmark)
+# Testes de Desempenho (Benchmark)  
 
-**Data:** 04 de fevereiro de 2026
+**Data:** 04 de fevereiro de 2026  
 
----
-
-## 🎯 Objetivo da Aula
-
-Realizar testes de desempenho (benchmark) no computador já montado, com sistema operacional e drivers atualizados, para avaliar estabilidade, funcionamento e performance dos componentes.
+Com o computador montado, sistema instalado e drivers atualizados, foram realizados testes de desempenho para avaliar estabilidade e funcionamento do hardware.
 
 ---
 
-## 🧪 O que são Testes Benchmark?
+## Execução dos Testes  
 
-Benchmark são testes utilizados para:
+Foram utilizados softwares disponibilizados pelo professor para realizar:
 
-- Medir desempenho do processador (CPU)
-- Avaliar desempenho da memória RAM
-- Testar desempenho do armazenamento (HD / SSD)
-- Verificar estabilidade do sistema
-- Identificar possíveis falhas ou gargalos
-
----
-
-## 💻 Execução dos Testes
-
-Os softwares utilizados estavam disponíveis em um pendrive fornecido pelo professor.
-
-Foram realizados testes para:
-
-- Avaliação de desempenho geral do sistema
-- Testes de estresse no processador
-- Verificação de temperaturas durante uso intenso
-- Análise de desempenho do armazenamento
+- Testes de desempenho da CPU  
+- Avaliação da memória RAM  
+- Verificação do armazenamento (HD / SSD)  
+- Testes de estresse do sistema  
 
 ---
 
-## 🌡 Monitoramento
+## Monitoramento  
 
-Durante os testes, foi observado:
+Durante os testes, foram observados:
 
-- Estabilidade do sistema
-- Temperatura do processador
-- Resposta do sistema sob carga
-- Possíveis travamentos ou falhas
-
----
-
-## 📊 Importância dos Benchmarks
-
-Os testes de benchmark são importantes porque:
-
-- Confirmam que a montagem foi realizada corretamente
-- Validam a eficiência da pasta térmica aplicada
-- Garantem que o sistema está pronto para uso
-- Permitem comparar desempenho com outros sistemas semelhantes
+- Estabilidade do sistema  
+- Temperatura do processador  
+- Comportamento sob carga  
+- Possíveis falhas ou travamentos  
 
 ---
 
-## 📚 Conhecimentos Desenvolvidos
+## Resultado  
 
-- Conceito de benchmark
-- Teste de estabilidade de hardware
-- Análise de desempenho
-- Monitoramento de temperatura e funcionamento
-
----
-
-## ✅ Resultado
-
-O computador apresentou funcionamento estável durante os testes de benchmark, sem falhas aparentes, demonstrando que a montagem e configuração foram realizadas corretamente.
+O computador apresentou funcionamento estável durante os testes, confirmando que a montagem, instalação do sistema e atualização de drivers foram realizadas corretamente.
