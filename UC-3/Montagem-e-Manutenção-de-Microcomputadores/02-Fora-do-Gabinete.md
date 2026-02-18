@@ -1,4 +1,4 @@
-# 🧪 Aula Prática – Montagem de Computador Fora do Gabinete
+# Montagem de Computador Fora do Gabinete
 
 **Data:** 29 de janeiro de 2026
 
@@ -6,7 +6,7 @@ Nesta aula foi realizada uma montagem técnica do computador fora do gabinete, c
 
 ---
 
-## 🔍 1. Teste Inicial de Funcionamento
+## Teste Inicial de Funcionamento
 
 Antes de qualquer intervenção, foi realizado um teste para verificar se a máquina ainda ligava corretamente.
 
@@ -14,7 +14,7 @@ O objetivo foi confirmar o funcionamento básico do hardware antes da desmontage
 
 ---
 
-## 🔧 2. Desmontagem Completa
+## Desmontagem Completa
 
 Após o teste inicial, o computador foi totalmente desmontado, incluindo:
 
@@ -28,7 +28,7 @@ Essa etapa permitiu analisar os componentes individualmente.
 
 ---
 
-## 🧼 3. Limpeza dos Componentes
+## Limpeza dos Componentes
 
 Foi realizada a limpeza dos componentes e da estrutura, removendo sujeira e poeira acumulada, contribuindo para:
 
@@ -38,7 +38,7 @@ Foi realizada a limpeza dos componentes e da estrutura, removendo sujeira e poei
 
 ---
 
-## 🖥 4. Montagem Fora do Gabinete (Teste em Bancada)
+## 🖥 Montagem Fora do Gabinete (Teste em Bancada)
 
 A máquina foi montada fora do gabinete, utilizando apenas os componentes essenciais:
 
@@ -53,7 +53,7 @@ Esse procedimento simula o acionamento do botão de energia.
 
 ---
 
-## 💻 5. Instalação do Sistema Operacional
+## Instalação do Sistema Operacional
 
 Com o funcionamento confirmado, foi realizada a instalação do Windows 10 Pro na máquina montada em bancada.
 
