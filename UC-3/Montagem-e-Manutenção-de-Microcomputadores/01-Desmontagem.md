@@ -1,87 +1,47 @@
 # Desmontagem, Montagem e Manutenção Preventiva
 
-**Data:** 26 e 27 de janeiro de 2026
+**Data:** 26 e 27 de janeiro de 2026  
 
 ---
 
-## 🎯 Objetivo da Aula
-
-Compreender a estrutura interna de um computador desktop por meio da desmontagem completa, remontagem dos componentes e realização de manutenção preventiva no sistema de refrigeração do processador.
-
----
-
-## 🔧 Desmontagem do Computador
-
-Foi realizada a desmontagem do computador, removendo os principais componentes internos para análise e aprendizado prático.
-
-Componentes removidos:
-
-- Tampa lateral do gabinete
-- Fonte de alimentação
-- Placa-mãe
-- Memória RAM
-- HD / SSD
-- Cabos de alimentação e dados
-
-Durante o processo, foi possível identificar a função de cada componente e sua importância no funcionamento do sistema.
+## 🎯 Objetivo  
+Compreender a estrutura interna de um computador desktop por meio da desmontagem, manutenção preventiva e remontagem dos componentes.
 
 ---
 
-## 🌀 Remoção do Cooler da CPU
+## Desmontagem  
+Foi realizada a desmontagem completa do computador para identificação dos componentes internos, incluindo:
 
-Após a desmontagem, foi realizada a remoção do cooler (fan) do processador para acessar o sistema de refrigeração.
-
-Foi observado:
-
-- O método de fixação do cooler na placa-mãe
-- A estrutura do dissipador de calor
-- O contato entre o processador e o sistema de resfriamento
-
----
-
-## 🧼 Remoção da Pasta Térmica
-
-A pasta térmica antiga foi removida tanto do processador quanto da base do dissipador.
-
-Essa etapa é fundamental para:
-
-- Garantir melhor dissipação de calor
-- Evitar superaquecimento
-- Manter o desempenho adequado da CPU
+- Fonte de alimentação  
+- Placa-mãe  
+- Memória RAM  
+- HD / SSD  
+- Cabos de alimentação e dados  
 
 ---
 
-## 🧴 Aplicação de Nova Pasta Térmica
+## Manutenção do Sistema de Refrigeração  
 
-Foi aplicada uma nova camada de pasta térmica no processador, utilizando quantidade adequada para garantir contato eficiente com o dissipador.
+### Remoção do Cooler  
+O cooler da CPU foi removido para acesso ao processador e ao sistema de dissipação de calor.
 
-Após a aplicação, o cooler foi reinstalado corretamente.
-
----
-
-## 🔧 Montagem Final
-
-Após a manutenção, o computador foi montado novamente dentro do gabinete, conectando:
-
-- Cabos da fonte
-- Cabos SATA
-- Conectores do painel frontal
-- Demais componentes internos
-
-Foi verificado o encaixe correto das peças e a organização dos cabos.
+### Troca da Pasta Térmica  
+A pasta térmica antiga foi removida e substituída por uma nova aplicação, garantindo melhor dissipação de calor e prevenindo superaquecimento.
 
 ---
 
-## 📚 Conhecimentos Desenvolvidos
-
-- Identificação de componentes internos
-- Processo correto de desmontagem e montagem
-- Funcionamento do sistema de refrigeração
-- Importância da manutenção preventiva
-- Aplicação correta de pasta térmica
+## 🔧 Montagem  
+Após a manutenção, o computador foi montado novamente, com verificação das conexões, organização dos cabos e fixação correta dos componentes.
 
 ---
 
-## ✅ Resultado
+## Aprendizados  
+- Identificação de componentes internos  
+- Processo correto de desmontagem e montagem  
+- Importância da manutenção preventiva  
+- Aplicação adequada de pasta térmica  
 
-O computador foi desmontado, recebeu manutenção preventiva no sistema de refrigeração e foi montado novamente com sucesso, mantendo funcionamento normal.
+---
+
+## ✅ Resultado  
+O computador foi remontado com sucesso e manteve funcionamento normal após a manutenção.
