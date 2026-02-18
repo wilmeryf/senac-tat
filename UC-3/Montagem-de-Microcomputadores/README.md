@@ -1,4 +1,4 @@
-# Montagem e Manutenção de Microcomputadores
+# Montagem de Microcomputadores
 
 Este diretório reúne as atividades práticas realizadas na UC-3, envolvendo montagem, desmontagem, manutenção preventiva, instalação de sistema operacional, atualização de drivers e testes de desempenho.
 
