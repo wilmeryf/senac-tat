@@ -1,6 +1,6 @@
 # 🧪 Aula Prática – Montagem de Computador Fora do Gabinete
 
-**Data:** 29/01/2026
+**Data:** 29 de janeiro de 2026
 
 Nesta aula foi realizada uma montagem técnica do computador fora do gabinete, com foco em testes de funcionamento, desmontagem completa e remontagem em bancada.
 
