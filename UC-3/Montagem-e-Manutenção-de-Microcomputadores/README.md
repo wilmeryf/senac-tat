@@ -1,5 +1,7 @@
 # 🖥 Projeto – Montagem e Configuração de Computador
 
+**Data:** 06 e 10 de fevereiro de 2026
+
 Este projeto consiste na montagem completa de um computador desktop, seguida da instalação e configuração do sistema operacional e softwares essenciais para uso.
 
 O objetivo foi aplicar na prática os conhecimentos adquiridos em aula, realizando desde a montagem física até a entrega da máquina pronta para uso.
