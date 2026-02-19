@@ -12,7 +12,7 @@ Realizar um backup manual utilizando o software Cobian Reflect, configurando ori
 
 Nesta etapa foi realizado o download do instalador diretamente do site oficial do Cobian Reflect.
 
-![Download do Cobian](Imagens/01-dowload-cobian.jpg)
+![Download do Cobian](Imagens/01-download-cobian.jpg)
 
 ---
 
