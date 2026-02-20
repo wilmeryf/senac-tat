@@ -47,7 +47,7 @@ Foram adicionados novos arquivos na pasta de origem para simular modificação d
 
 ## 5. Execução do Backup Incremental
 
-Ao executar novamente a tarefa, o Cobian Reflect copiou apenas os arquivos que foram criados ou modificados desde o último backup.
+Ao executar novamente a tarefa, o Cobian Reflector copiou apenas os arquivos que foram criados ou modificados desde o último backup.
 
 É possível observar no carregamento a quantidade de arquivos alterados.
 
