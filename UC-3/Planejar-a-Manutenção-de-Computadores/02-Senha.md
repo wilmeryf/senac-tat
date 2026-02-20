@@ -11,7 +11,7 @@ Simular um cenário onde o usuário esqueceu a senha do Windows 10 e realizar a 
 
 ---
 
-## 1️⃣ Situação Inicial – Sistema Bloqueado
+## 1. Situação Inicial – Sistema Bloqueado
 
 Foi definida uma senha na máquina virtual e simulada a situação de esquecimento da senha pelo usuário.
 
@@ -21,7 +21,7 @@ O sistema impedia o acesso ao Windows.
 
 ---
 
-## 2️⃣ Inicialização pelo Hiren’s BootCD
+## 2. Inicialização pelo Hiren’s BootCD
 
 A máquina foi iniciada pelo Hiren’s BootCD, acessando o menu principal (tela preta).
 
@@ -29,7 +29,7 @@ A máquina foi iniciada pelo Hiren’s BootCD, acessando o menu principal (tela 
 
 ---
 
-## 3️⃣ Acesso às Ferramentas de Recuperação
+## 3. Acesso às Ferramentas de Recuperação
 
 No menu principal foram seguidos os seguintes passos:
 
@@ -43,7 +43,7 @@ No menu principal foram seguidos os seguintes passos:
 
 ---
 
-## 4️⃣ Seleção do Usuário
+## 4. Seleção do Usuário
 
 Dentro do Active Password Changer, foi exibida a lista de usuários do sistema.
 
@@ -53,7 +53,7 @@ Selecionamos o usuário correspondente ao sistema e confirmamos a operação.
 
 ---
 
-## 5️⃣ Confirmação do Reset
+## 5. Confirmação do Reset
 
 Após confirmar a operação, o sistema exibiu uma barra azul indicando que o reset da senha foi realizado com sucesso.
 
@@ -61,7 +61,7 @@ Após confirmar a operação, o sistema exibiu uma barra azul indicando que o re
 
 ---
 
-## 6️⃣ Acesso Restaurado
+## 6. Acesso Restaurado
 
 Após reiniciar a máquina virtual, o Windows 10 iniciou normalmente sem solicitar senha, confirmando que a recuperação foi concluída com sucesso.
 
