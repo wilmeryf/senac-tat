@@ -63,7 +63,7 @@ Na pasta de destino é possível visualizar os arquivos gerados, confirmando o f
 
 ---
 
-# 📌 Conceito Técnico
+# Conceito Técnico
 
 - O primeiro backup incremental é sempre completo.
 - Os backups seguintes copiam apenas arquivos alterados desde o último backup.
