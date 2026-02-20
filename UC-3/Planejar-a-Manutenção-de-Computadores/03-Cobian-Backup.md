@@ -23,7 +23,7 @@ Vá até **Cobian Reflector 2.7.20** e clique em cima para realizar o donwload
 
 Após a instalação, o Cobian Reflector é executado em segundo plano e pode ser acessado pelos ícones ocultos próximos ao relógio do Windows.
 
-![Ícone do Cobian](Imagens/02-icone-cobian.jpg)
+![Ícone do Cobian](Imagens/01-icone-cobian.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ Após a instalação, o Cobian Reflector é executado em segundo plano e pode se
 
 Ao abrir o Cobian Reflector, visualizamos a interface principal onde é possível criar e gerenciar tarefas de backup.
 
-![Tela inicial do Cobian](Imagens/03-tela-inicial-cobian.jpg)
+![Tela inicial do Cobian](Imagens/02-tela-inicial-cobian.jpg)
 
 ---
 
@@ -41,11 +41,11 @@ Selecionamos a pasta que será utilizada como exemplo para o backup.
 
 No caso, utilizamos arquivos de teste dentro da pasta **Documentos**.
 
-![Pasta de origem](Imagens/04-pasta-origem-documentos.jpg)
+![Pasta de origem](Imagens/03-pasta-origem-documentos.jpg)
 
 Definimos o local onde os arquivos do backup serão armazenados.
 
-![Pasta de destino](Imagens/05-pasta-destino-backup.jpg)
+![Pasta de destino](Imagens/04-pasta-destino-backup.jpg)
 
 ---
 
@@ -63,7 +63,7 @@ Após criar a tarefa, é exibida a tela de configuração inicial.
 
 Nesta etapa podemos definir o nome da tarefa e configurações básicas.
 
-![Tela de configuração](Imagens/07-tela-configuracao-inicial.jpg)
+![Tela de configuração](Imagens/05-tela-configuracao-inicial.jpg)
 
 ---
 
@@ -89,7 +89,7 @@ Na aba **Arquivos**, adicionamos:
 - Origem (pasta Documentos)
 - Destino (pasta de Backup)
 
-![Configuração origem e destino](Imagens/09-configuracao-origem-destino.jpg)
+![Configuração origem e destino](Imagens/06-configuracao-origem-destino.jpg)
 
 ---
 
@@ -103,7 +103,7 @@ Após revisar todas as configurações, finalizamos a criação da tarefa clican
 
 A tarefa aparece listada na tela principal do programa, pronta para execução manual ou automática (caso tenha sido configurado agendamento).
 
-![Tarefa criada](Imagens/11-tarefa-criada.jpg)
+![Tarefa criada](Imagens/07-tarefa-criada.jpg)
 
 ---
 
@@ -113,7 +113,7 @@ Por fim, verificamos que os arquivos da pasta **Documentos** foram copiados corr
 
 Isso confirma que o backup foi realizado com sucesso.
 
-![Verificação do backup](Imagens/12-verificacao-backup.jpg)
+![Verificação do backup](Imagens/08-verificacao-backup.jpg)
 
 ---
 
