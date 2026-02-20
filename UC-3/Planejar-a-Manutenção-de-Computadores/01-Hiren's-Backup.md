@@ -9,7 +9,7 @@ Criar uma partição de 10GB utilizando o Hiren’s Boot CD e realizar o backup 
 
 ---
 
-## 1️⃣ Ambiente Inicial – Windows 10
+## 1. Ambiente Inicial – Windows 10
 
 Área de trabalho do Windows 10:
 
@@ -21,7 +21,7 @@ Pasta contendo os arquivos de teste:
 
 ---
 
-## 2️⃣ Inicialização pelo Hiren’s Boot CD
+## 2. Inicialização pelo Hiren’s Boot CD
 
 Menu inicial do Hiren’s:
 
@@ -33,7 +33,7 @@ Mini Windows XP carregado:
 
 ---
 
-## 3️⃣ Criação do Disco Virtual de 10GB
+## 3. Criação do Disco Virtual de 10GB
 
 Disco criado nas configurações de armazenamento do VirtualBox:
 
@@ -41,7 +41,7 @@ Disco criado nas configurações de armazenamento do VirtualBox:
 
 ---
 
-## 4️⃣ Criação da Partição "Backup"
+## 4. Criação da Partição "Backup"
 
 Criação da partição utilizando 100% do espaço disponível:
 
@@ -53,7 +53,7 @@ Partição criada com o nome "Backup":
 
 ---
 
-## 5️⃣ Processo de Backup
+## 5. Processo de Backup
 
 Pasta original localizada no Desktop:
 
@@ -69,7 +69,7 @@ Arquivos dentro da partição Backup:
 
 ---
 
-## 6️⃣ Confirmação no Windows 10
+## 6. Confirmação no Windows 10
 
 Confirmação da partição e dos arquivos após reinicialização no Windows 10:
 
