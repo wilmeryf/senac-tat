@@ -4,20 +4,16 @@
 
 ---
 
-## 📌 Objetivo
+## Objetivo
 Criar uma partição de 10GB utilizando o Hiren’s Boot CD e realizar o backup de arquivos do Windows 10 para essa nova partição.
 
 ---
 
 ## 1. Ambiente Inicial – Windows 10
 
-Área de trabalho do Windows 10:
+Área de trabalho do Windows 10 contendo a pasta com os arquivos de teste:
 
-![Windows 10 Área de Trabalho](Imagens/01-windows10-area-de-trabalho.png)
-
-Pasta contendo os arquivos de teste:
-
-![Pasta Arquivos Teste](Imagens/02-pasta-arquivos-teste.png)
+![Pasta Arquivos Teste](Imagens/01-pasta-arquivos-teste.png)
 
 ---
 
@@ -25,47 +21,35 @@ Pasta contendo os arquivos de teste:
 
 Menu inicial do Hiren’s:
 
-![Menu Hiren's](Imagens/03-menu-inicial-hirens.png)
+![Menu Hiren's](Imagens/02-menu-inicial-hirens.png)
 
-Mini Windows XP carregado:
-
-![Mini Windows XP](Imagens/04-mini-windows-xp-hirens.png)
+O procedimento será feito no **Mini Windows XP do Hiren's.**
 
 ---
 
-## 3. Criação do Disco Virtual de 10GB
+## 3. Criação do Disco Virtual
 
-Disco criado nas configurações de armazenamento do VirtualBox:
-
-![Disco 10GB VirtualBox](Imagens/05-disco-10gb-criado-virtualbox.jpg)
+Desligue a máquina virtual > Vá até o ícone da engrenagem > Entre em Armazenamento > Crie um novo disco
 
 ---
 
 ## 4. Criação da Partição "Backup"
 
-Criação da partição utilizando 100% do espaço disponível:
+Criação da partição utilizando 100% do espaço disponível, lhe foi dado o nome **Backup**:
 
-![Criação da Partição](Imagens/06-criacao-particao-backup.jpg)
-
-Partição criada com o nome "Backup":
-
-![Partição Backup Criada](Imagens/07-particao-backup-criada.jpg)
+![Criação da Partição](Imagens/03-criacao-particao-backup.jpg)
 
 ---
 
 ## 5. Processo de Backup
 
-Pasta original localizada no Desktop:
+Pasta de teste localizada no Desktop:
 
-![Pasta no Desktop](Imagens/08-pasta-arquivos-no-desktop.jpg)
+![Pasta no Desktop](Imagens/04-pasta-arquivos-no-desktop.jpg)
 
-Processo de cópia para a partição Backup:
+Passagem da pasta de teste para dentro da partição Backup:
 
-![Cópia para Backup](Imagens/09-copia-arquivos-para-backup.jpg)
-
-Arquivos dentro da partição Backup:
-
-![Arquivos Dentro do Backup](Imagens/10-arquivos-dentro-do-backup.jpg)
+![Arquivos Dentro do Backup](Imagens/05-arquivos-dentro-do-backup.jpg)
 
 ---
 
@@ -73,17 +57,17 @@ Arquivos dentro da partição Backup:
 
 Confirmação da partição e dos arquivos após reinicialização no Windows 10:
 
-![Confirmação Windows 10](Imagens/11-confirmacao-backup-windows10.png)
+![Confirmação Windows 10](Imagens/06-confirmacao-backup-windows10.png)
 
 ---
 
-## 🎯 Resultado
+## Resultado
 
 A partição foi criada com sucesso através do Hiren’s Boot CD e os arquivos foram copiados corretamente para o novo volume "Backup", sendo posteriormente confirmados no Windows 10.
 
 ---
 
-## 📚 Competências Praticadas
+## Competências Praticadas
 
 - Criação de disco virtual no VirtualBox  
 - Gerenciamento de partições  
