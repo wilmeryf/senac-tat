@@ -1,5 +1,6 @@
-# 💾 Clonagem de Disco e Expansão de Partição
-## Simulação Prática no VirtualBox
+# Clonagem de Disco e Expansão de Partição
+
+**Data:** 20 de fevereiro de 2026
 
 ---
 
@@ -11,9 +12,7 @@ A atividade foi realizada em ambiente virtual (VirtualBox).
 
 ---
 
-# 🧩 1️⃣ Criação do Novo Disco (100GB)
-
-Inicialmente, foi criado um novo disco virtual de 100GB no VirtualBox.
+# 1. Criação do Novo Disco (100GB)
 
 No Gerenciamento de Disco do Windows:
 
@@ -31,17 +30,16 @@ Após a criação e formatação, o disco passou a aparecer no sistema como **HD
 
 ---
 
-# 💽 2️⃣ Clonagem com Macrium Reflect
+# 2. Clonagem
 
-Software utilizado:
+Software utilizado: **Macrium Reflect** - Versão gratuita (teste de 30 dias)
 
-**:contentReference[oaicite:0]{index=0}**  
-Versão gratuita (teste de 30 dias)
+Link: [https://www.macrium.com/reflectfree](https://www.macrium.com/reflectfree)
 
 Foi realizada a clonagem:
 
-- 🔹 Disco de origem → Disco Local (50GB)  
-- 🔹 Disco de destino → HD Clone (100GB)
+- Disco de origem → Disco Local (50GB)  
+- Disco de destino → HD Clone (100GB)
 
 O processo foi iniciado selecionando o disco de origem e arrastando para o disco de destino dentro do software.
 
@@ -64,12 +62,11 @@ Após a conclusão, o Gerenciamento de Disco mostrou:
 
 ---
 
-# 📈 3️⃣ Expansão de Partição com AOMEI
+# 3. Expansão de Partição com AOMEI
 
-Software utilizado:
+Software utilizado: **AOMEI Partition Assistant 10.10.0** - Versão gratuita (30 dias)
 
-**:contentReference[oaicite:1]{index=1}**  
-Versão gratuita (30 dias)
+Link: [https://www.aomeitech.com/pa/standard.html](https://www.aomeitech.com/pa/standard.html)
 
 Como o disco clone era maior, ficou um espaço não alocado de 50GB.
 
@@ -89,7 +86,7 @@ O software executou a operação e expandiu a partição principal utilizando to
 
 ---
 
-# 🔄 4️⃣ Troca da Ordem de Boot no VirtualBox
+# 4. Troca da Ordem de Boot no VirtualBox
 
 Para validar a clonagem, foi realizada a troca da ordem de boot.
 
@@ -105,7 +102,7 @@ SATA 0 representa a primeira prioridade de inicialização.
 
 ---
 
-# ✅ 5️⃣ Validação Final
+# 5. Validação Final
 
 Após iniciar a máquina virtual:
 
@@ -122,7 +119,7 @@ No Gerenciamento de Disco foi possível visualizar:
 
 ---
 
-# 🧠 Conceitos Técnicos Aplicados
+# Conceitos Técnicos Aplicados
 
 - Inicialização de disco em GPT  
 - Clonagem inteligente de disco  
@@ -133,23 +130,11 @@ No Gerenciamento de Disco foi possível visualizar:
 
 ---
 
-# 📌 Conclusão
+# Conclusão
 
 A atividade demonstrou na prática:
 
 - Como migrar um sistema operacional para um disco maior  
 - Como evitar perda de dados durante clonagem  
 - Como aproveitar espaço excedente após clonagem  
-- Como validar o funcionamento através da alteração de boot  
-
-A simulação em ambiente virtual permitiu realizar testes seguros, reforçando conhecimentos de infraestrutura e armazenamento.
-
----
-
-# 📚 Competências Desenvolvidas
-
-- Clonagem de disco em ambiente controlado  
-- Manipulação de partições  
-- Gerenciamento de armazenamento  
-- Configuração de boot no VirtualBox  
-- Documentação técnica estruturada  
+- Como validar o funcionamento através da alteração de boot 
