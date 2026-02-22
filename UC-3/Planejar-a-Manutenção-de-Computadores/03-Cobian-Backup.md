@@ -119,4 +119,4 @@ Isso confirma que o backup foi realizado com sucesso.
 
 # ✅ Conclusão
 
-O Cobian Reflect permite realizar backups manuais ou automáticos de forma prática, possibilitando personalização completa da tarefa e garantindo maior segurança dos dados.
+O Cobian Reflector permite realizar backups manuais ou automáticos de forma prática, possibilitando personalização completa da tarefa e garantindo maior segurança dos dados.
