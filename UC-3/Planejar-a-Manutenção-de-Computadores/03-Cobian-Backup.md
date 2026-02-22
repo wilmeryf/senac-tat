@@ -41,7 +41,7 @@ No caso, utilizamos arquivos de teste dentro da pasta **Documentos**.
 
 ![Pasta de origem](Imagens/02-pasta-origem-documentos.jpg)
 
-Definimos o local onde os arquivos do backup serão armazenados, para isso foi criado uma pasta com nome **Backup.**
+Definimos o local onde os arquivos do backup serão armazenados, para isso foi criado uma pasta com nome **"Backup".**
 
 ---
 
