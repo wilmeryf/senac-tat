@@ -65,10 +65,6 @@ Nesta etapa podemos definir o nome da tarefa e configurações básicas.
 
 ![Tela de configuração](Imagens/05-tela-configuracao-inicial.jpg)
 
----
-
-## 7. Abas de Personalização
-
 O Cobian permite personalizar diversas configurações através das abas:
 
 - Geral  
@@ -82,7 +78,7 @@ O Cobian permite personalizar diversas configurações através das abas:
 
 ---
 
-## 8. Configuração de Origem e Destino
+## 7. Configuração de Origem e Destino
 
 Na aba **Arquivos**, adicionamos:
 
@@ -93,13 +89,13 @@ Na aba **Arquivos**, adicionamos:
 
 ---
 
-## 9. Finalizando a Configuração
+## 8. Finalizando a Configuração
 
 Após revisar todas as configurações, finalizamos a criação da tarefa clicando em **Ok**.
 
 ---
 
-## 10. Tarefa Criada
+## 9. Tarefa Criada
 
 A tarefa aparece listada na tela principal do programa, pronta para execução manual ou automática (caso tenha sido configurado agendamento).
 
@@ -107,7 +103,7 @@ A tarefa aparece listada na tela principal do programa, pronta para execução m
 
 ---
 
-## 11. Verificação do Backup
+## 10. Verificação do Backup
 
 Por fim, verificamos que os arquivos da pasta **Documentos** foram copiados corretamente para a pasta de destino.
 
