@@ -17,7 +17,7 @@ Foi definida uma senha na máquina virtual e simulada a situação de esquecimen
 
 O sistema impedia o acesso ao Windows.
 
-![Windows bloqueado](Imagens/12-windows-bloqueado.png)
+![Windows bloqueado](Imagens/07-windows-bloqueado.png)
 
 ---
 
@@ -25,7 +25,7 @@ O sistema impedia o acesso ao Windows.
 
 A máquina foi iniciada pelo Hiren’s BootCD, acessando o menu principal (tela preta).
 
-![Menu inicial Hiren's](Imagens/13-menu-inicial-hirens.png)
+![Menu inicial Hiren's](Imagens/08-menu-inicial-hirens.png)
 
 ---
 
@@ -34,12 +34,9 @@ A máquina foi iniciada pelo Hiren’s BootCD, acessando o menu principal (tela 
 No menu principal foram seguidos os seguintes passos:
 
 - **Dos Programs**
-- **Password**
-- **Active Password Changer**
-
-![Dos Programs](Imagens/14-dos-programs.png)
-
-![Menu Password](Imagens/15-menu-password.png)
+- **3. Password & Registry Tools...**
+- **6. Active Password Changer 3.0.420 (NT/2000/XP/2003/Vista)**
+- Em seguida dê um **Yes** para prosseguir
 
 ---
 
@@ -49,7 +46,7 @@ Dentro do Active Password Changer, foi exibida a lista de usuários do sistema.
 
 Selecionamos o usuário correspondente ao sistema e confirmamos a operação.
 
-![Seleção do usuário](Imagens/16-active-password-changer-usuario.png)
+![Seleção do usuário](Imagens/09-active-password-changer-usuario.png)
 
 ---
 
@@ -57,7 +54,7 @@ Selecionamos o usuário correspondente ao sistema e confirmamos a operação.
 
 Após confirmar a operação, o sistema exibiu uma barra azul indicando que o reset da senha foi realizado com sucesso.
 
-![Confirmação do reset](Imagens/17-confirmacao-reset.png)
+![Confirmação do reset](Imagens/10-confirmacao-reset.png)
 
 ---
 
@@ -65,7 +62,7 @@ Após confirmar a operação, o sistema exibiu uma barra azul indicando que o re
 
 Após reiniciar a máquina virtual, o Windows 10 iniciou normalmente sem solicitar senha, confirmando que a recuperação foi concluída com sucesso.
 
-![Windows sem senha](Imagens/18-windows-sem-senha.png)
+![Windows sem senha](Imagens/11-windows-sem-senha.png)
 
 ---
 
