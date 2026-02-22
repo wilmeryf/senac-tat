@@ -14,7 +14,7 @@ Demonstrar o funcionamento do Backup Incremental utilizando o Cobian Reflector, 
 
 Foi criada uma nova tarefa no Cobian Reflector, selecionando o tipo **Backup Incremental**.
 
-![Seleção do Backup Incremental](Imagens/09-selecao-backup-incremental.png)
+![Seleção do Backup Incremental](Imagens/06-selecao-backup-incremental.png)
 
 ---
 
@@ -25,7 +25,7 @@ Foi configurada:
 - **Origem:** "Pasta Incremental"
 - **Destino:** Pasta de Backup
 
-![Origem e Destino](Imagens/10-origem-destino.png)
+![Origem e Destino](Imagens/07-origem-destino.png)
 
 ---
 
@@ -33,7 +33,7 @@ Foi configurada:
 
 Mesmo configurado como incremental, o primeiro backup executado é sempre um **backup completo**, criando a base inicial.
 
-![Primeiro Backup Completo](Imagens/11-primeiro-backup-completo.png)
+![Primeiro Backup Completo](Imagens/08-primeiro-backup-completo.png)
 
 ---
 
@@ -41,7 +41,7 @@ Mesmo configurado como incremental, o primeiro backup executado é sempre um **b
 
 Foram adicionados novos arquivos na pasta de origem para simular modificação de dados.
 
-![Alteração dos Arquivos](Imagens/12-alteracao-arquivos.png)
+![Alteração dos Arquivos](Imagens/09-alteracao-arquivos.png)
 
 ---
 
@@ -51,7 +51,7 @@ Ao executar novamente a tarefa, o Cobian Reflector copiou apenas os arquivos que
 
 É possível observar no carregamento a quantidade de arquivos alterados.
 
-![Execução do Incremental](Imagens/13-execucao-backup-incremental.png)
+![Execução do Incremental](Imagens/10-execucao-backup-incremental.png)
 
 ---
 
@@ -59,7 +59,7 @@ Ao executar novamente a tarefa, o Cobian Reflector copiou apenas os arquivos que
 
 Na pasta de destino é possível visualizar os arquivos gerados, confirmando o funcionamento do backup incremental.
 
-![Resultado Final](Imagens/14-resultado-pasta-backup.png)
+![Resultado Final](Imagens/11-resultado-pasta-backup.png)
 
 ---
 
