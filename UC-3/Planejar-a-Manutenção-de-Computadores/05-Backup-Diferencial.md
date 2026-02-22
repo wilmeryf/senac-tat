@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Compreender o funcionamento do **Backup Diferencial**, aplicando na prática através do Cobian Reflector e analisando seu comportamento após modificações nos arquivos.
 
@@ -12,7 +12,7 @@ Compreender o funcionamento do **Backup Diferencial**, aplicando na prática atr
 
 ## 1. Preparação do Ambiente
 
-Foi criada uma pasta de teste contendo arquivos para simular um ambiente real de trabalho.
+Foi criada uma pasta de teste contendo arquivo para simular um ambiente real de trabalho.
 
 Essa pasta seria utilizada como base para:
 
@@ -26,13 +26,11 @@ Essa pasta seria utilizada como base para:
 
 ## 2. Configuração da Tarefa no Cobian
 
-No Cobian Backup foi criada uma nova tarefa selecionando o tipo:
-
-- **Diferencial**
+No Cobian foi criada uma nova tarefa selecionando o tipo **Backup diferencial**:
 
 Foram configurados:
 
-- Origem → Pasta de testes  
+- Origem → Pasta Diferencial (pasta criada para atividade) 
 - Destino → Pasta de backup  
 
 ![Configuração diferencial](Imagens/13-configuracao-diferencial.png)
@@ -79,7 +77,7 @@ Isso demonstra que o diferencial sempre usa o **backup completo como referência
 
 # Entendendo o Funcionamento
 
-### 📌 Como o Backup Diferencial funciona:
+### Como o Backup Diferencial funciona:
 
 1. Exige um backup completo inicial.
 2. Cada execução copia tudo que foi alterado desde o último completo.
@@ -87,7 +85,7 @@ Isso demonstra que o diferencial sempre usa o **backup completo como referência
 
 ---
 
-# ⚖️ Comparação com o Backup Incremental
+# Comparação com o Backup Incremental
 
 | Característica | Incremental | Diferencial |
 |---------------|-------------|-------------|
@@ -108,12 +106,3 @@ Ele oferece:
 - Maior consumo de armazenamento ao longo do tempo  
 
 A prática permitiu visualizar claramente seu comportamento e entender sua aplicação em ambientes reais de suporte técnico.
-
----
-
-## Competências Desenvolvidas
-
-- Configuração de tarefa no Cobian Backup  
-- Diferença prática entre backup completo, incremental e diferencial  
-- Análise de crescimento de backup  
-- Procedimento técnico de proteção de dados em ambiente controlado  
