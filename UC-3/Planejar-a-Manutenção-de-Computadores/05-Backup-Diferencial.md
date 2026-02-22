@@ -1,6 +1,6 @@
 # Backup Diferencial no Cobian Reflector
 
-**Data:** 20 de fevereiro de 2026
+**Data:** 19 de fevereiro de 2026
 
 ---
 
