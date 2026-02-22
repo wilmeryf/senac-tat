@@ -1,10 +1,10 @@
-# Backup Manual com Cobian Reflector
+# Backup com Cobian Reflector
 
 **Data:** 13 de fevereiro de 2026
 
 ## 🎯 Objetivo
 
-Realizar um backup manual utilizando o software Cobian Reflector, configurando origem, destino e personalizações da tarefa.
+Realizar um backup utilizando o software Cobian Reflector, configurando origem, destino e personalizações da tarefa.
 
 ---
 
@@ -21,9 +21,7 @@ Vá até **Cobian Reflector 2.7.20** e clique em cima para realizar o donwload
 
 ## 2. Cobian em Execução (Ícones Ocultos)
 
-Após a instalação, o Cobian Reflector é executado em segundo plano e pode ser acessado pelos ícones ocultos próximos ao relógio do Windows.
-
-![Ícone do Cobian](Imagens/01-icone-cobian.jpg)
+Após a instalação, o Cobian Reflector é executado em segundo plano e pode ser acessado pelos **ÍCONES OCULTOS** próximos ao relógio do Windows.
 
 ---
 
@@ -31,7 +29,7 @@ Após a instalação, o Cobian Reflector é executado em segundo plano e pode se
 
 Ao abrir o Cobian Reflector, visualizamos a interface principal onde é possível criar e gerenciar tarefas de backup.
 
-![Tela inicial do Cobian](Imagens/02-tela-inicial-cobian.jpg)
+![Tela inicial do Cobian](Imagens/01-tela-inicial-cobian.jpg)
 
 ---
 
@@ -41,11 +39,9 @@ Selecionamos a pasta que será utilizada como exemplo para o backup.
 
 No caso, utilizamos arquivos de teste dentro da pasta **Documentos**.
 
-![Pasta de origem](Imagens/03-pasta-origem-documentos.jpg)
+![Pasta de origem](Imagens/02-pasta-origem-documentos.jpg)
 
-Definimos o local onde os arquivos do backup serão armazenados.
-
-![Pasta de destino](Imagens/04-pasta-destino-backup.jpg)
+Definimos o local onde os arquivos do backup serão armazenados, para isso foi criado uma pasta com nome **Backup.**
 
 ---
 
@@ -63,7 +59,7 @@ Após criar a tarefa, é exibida a tela de configuração inicial.
 
 Nesta etapa podemos definir o nome da tarefa e configurações básicas.
 
-![Tela de configuração](Imagens/05-tela-configuracao-inicial.jpg)
+![Tela de configuração](Imagens/03-tela-configuracao-inicial.jpg)
 
 O Cobian permite personalizar diversas configurações através das abas:
 
@@ -85,7 +81,7 @@ Na aba **Arquivos**, adicionamos:
 - Origem (pasta Documentos)
 - Destino (pasta de Backup)
 
-![Configuração origem e destino](Imagens/06-configuracao-origem-destino.jpg)
+![Configuração origem e destino](Imagens/04-configuracao-origem-destino.jpg)
 
 ---
 
@@ -93,26 +89,23 @@ Na aba **Arquivos**, adicionamos:
 
 Após revisar todas as configurações, finalizamos a criação da tarefa clicando em **Ok**.
 
----
+Depois de concluída a tarefa aparece na lista pronto para a execução:
 
-## 9. Tarefa Criada
-
-A tarefa aparece listada na tela principal do programa, pronta para execução manual ou automática (caso tenha sido configurado agendamento).
-
-![Tarefa criada](Imagens/07-tarefa-criada.jpg)
+- Manual, com o botão do play a tarefa estando selecionada.
+- Automática, com o agendamento configurado na aba de **Agenda**.
 
 ---
 
-## 10. Verificação do Backup
+## 9. Verificação do Backup
 
 Por fim, verificamos que os arquivos da pasta **Documentos** foram copiados corretamente para a pasta de destino.
 
 Isso confirma que o backup foi realizado com sucesso.
 
-![Verificação do backup](Imagens/08-verificacao-backup.jpg)
+![Verificação do backup](Imagens/05-verificacao-backup.jpg)
 
 ---
 
-# ✅ Conclusão
+# Conclusão
 
 O Cobian Reflector permite realizar backups manuais ou automáticos de forma prática, possibilitando personalização completa da tarefa e garantindo maior segurança dos dados.
