@@ -93,8 +93,8 @@ Para validar a clonagem, foi realizada a troca da ordem de boot.
 Com a máquina virtual desligada:
 
 - Acessado: Configurações → Armazenamento
-- O disco **HD Clone** foi movido para **SATA 0**
-- O disco antigo passou para SATA 1
+- O disco clone **(HD.vdi)** foi movido para **SATA 0**
+- O disco antigo **(Windows 10.vdi)** passou para SATA 1
 
 SATA 0 representa a primeira prioridade de inicialização.
 
