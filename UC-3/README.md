@@ -17,4 +17,4 @@ Este diretório reúne todas as atividades práticas realizadas na UC-3, com foc
 
 ---
 
-Atividades realizadas em fevereiro de 2026 como parte das aulas práticas da UC-3.
+Atividades realizadas no fim de janeiro e grande parte de fevereiro de 2026 como parte das aulas práticas da UC-3.
