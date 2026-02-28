@@ -91,6 +91,6 @@ Conectividades com perdas de:
 
 ## Transporte
 
-**TCP (Transfer Control Protocol)**
+**TCP (Transmission Control Protocol)**
 
 Para a informação chegar do ponto A ao ponto B, é necessário o transporte. Podemos fazer analogia com a carta enviada pelo correio
