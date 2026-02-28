@@ -1,8 +1,6 @@
 # Clonagem de Disco e Expansão de Partição
 
-**Data:** 20 de fevereiro de 2026
-
----
+> **Data:** 20 de fevereiro de 2026
 
 ## 🎯 Objetivo
 
