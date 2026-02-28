@@ -93,4 +93,4 @@ Conectividades com perdas de:
 
 **TCP (Transmission Control Protocol)**
 
-Para a informação chegar do ponto A ao ponto B, é necessário o transporte. Podemos fazer analogia com a carta enviada pelo correio
+Para a informação chegar do ponto A ao ponto B, é necessário o transporte. Podemos fazer analogia com a carta enviada pelo correio.
