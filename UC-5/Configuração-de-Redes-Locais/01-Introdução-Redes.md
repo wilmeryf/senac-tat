@@ -1,6 +1,6 @@
 # Introdução a Redes de Computadores
 
-**Data:** 25 de fevereiro de 2026
+> **Data:** 25 de fevereiro de 2026
 
 Primeira aula com introdução aos conceitos fundamentais de redes e funcionamento da internet.
 
