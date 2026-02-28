@@ -1,9 +1,7 @@
 # Recuperação de Senha com Hiren’s BootCD
 ## Utilizando Active Password Changer
 
-**Data:** 12 de fevereiro de 2026
-
----
+> **Data:** 12 de fevereiro de 2026
 
 ## 🎯 Objetivo
 
