@@ -1,8 +1,6 @@
 # Desmontagem, Montagem e Manutenção Preventiva
 
-**Data:** 26 e 27 de janeiro de 2026  
-
----
+> **Data:** 26 e 27 de janeiro de 2026  
 
 ## 🎯 Objetivo  
 Compreender a estrutura interna de um computador desktop por meio da desmontagem, manutenção preventiva e remontagem dos componentes.
