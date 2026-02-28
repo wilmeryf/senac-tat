@@ -1,6 +1,6 @@
 # Atualização de Drivers e Configuração do Sistema  
 
-**Data:** 02 de fevereiro de 2026  
+> **Data:** 02 de fevereiro de 2026  
 
 Após a instalação do sistema operacional, foi realizada a atualização dos drivers para garantir estabilidade, compatibilidade e melhor desempenho do computador.
 
