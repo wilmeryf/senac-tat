@@ -87,6 +87,8 @@ Conectividades com perdas de:
 - Configuração IP
 - Firewall bloqueando o ping
 
+---
+
 ## Transporte
 
 **TCP (Transfer Control Protocol)**
