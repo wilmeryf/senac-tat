@@ -1,6 +1,6 @@
 # Testes de Desempenho (Benchmark)  
 
-**Data:** 04 de fevereiro de 2026  
+> **Data:** 04 de fevereiro de 2026  
 
 Com o computador montado, sistema instalado e drivers atualizados, foram realizados testes de desempenho para avaliar estabilidade e funcionamento do hardware.
 
