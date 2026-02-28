@@ -1,8 +1,6 @@
 # Criação de Partição e Backup com Hiren’s Boot CD
 
-**Data:** 12 de fevereiro de 2026
-
----
+> **Data:** 12 de fevereiro de 2026
 
 ## Objetivo
 Criar uma partição de 10GB utilizando o Hiren’s Boot CD e realizar o backup de arquivos do Windows 10 para essa nova partição.
