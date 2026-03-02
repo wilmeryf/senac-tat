@@ -13,8 +13,6 @@ Conexão entre dois dispositivos com um cabo crossover: T-568A - T-568B
 - Baixa latência
 - Segurança
 
----
-
 ### Utilidades
 
 - Backup Rápido
@@ -27,7 +25,7 @@ Conexão entre dois dispositivos com um cabo crossover: T-568A - T-568B
 
 Nesta etapa da aula estamos simulando um cenário dentro do Cisco Packet Tracer:
 
-Para está simulação pegamos 3 imagens para usarmos como cenário da aula: mapa de São Paulo, rua do Senac e exemplo do piso da aula.
+Para está simulação pegamos 3 imagens para usarmos como cenário da aula, que foram: o mapa de São Paulo, a rua do Senac e exemplo do piso da aula.
 Com o cenário já criado, abrimos os materias utilizados.
 
 Materiais:
@@ -93,4 +91,4 @@ Conectividades com perdas de:
 
 **TCP (Transmission Control Protocol)**
 
-Para a informação chegar do ponto A ao ponto B, é necessário o transporte. Podemos fazer analogia com a carta enviada pelo correio.
+Para a informação chegar do ponto A ao ponto B, é necessário o transporte. Podemos fazer analogia com as cartas enviadas pelos correios.
