@@ -52,12 +52,12 @@ Testa a rede.
 ```
 ipconfig /release
 ```
-Zera as configurações de IP.
+Zera as configurações de IP. (serve só para DHCP)
 
 ```
 ipconfig /renew
 ```
-Atribuí o novo IP.
+Atribuí o novo IP. (serve só para DHCP)
 
 ---
 
@@ -84,6 +84,33 @@ Conectividades com perdas de:
 - Placa de rede com problema
 - Configuração IP
 - Firewall bloqueando o ping
+
+---
+
+## 🌐 Configurações de Rede
+
+- Desativar IPv6 e acessar IPv4
+- Habilitar resposta ao Ping (ICMPv4)
+
+### Acesso ao IPv4
+
+Caminho:  
+Barra de Tarefas → Configurações de Rede → Alterar opções de adaptador → Ethernet → Propriedades
+
+- Desmarcar IPv6  
+- Selecionar TCP/IPv4 → Propriedades  
+
+Objetivo: Trabalhar apenas com IPv4 ou configurar IP manualmente.
+
+### Resposta ao ping
+
+Caminho:  
+Barra de Tarefas → Firewall do Windows → Configurações Avançadas → Regras de Entrada  
+
+- Localizar “Compartilhamento de Arquivos e Impressoras (Solicitação de Eco – ICMPv4)”  
+- Habilitar regra  
+
+Objetivo: Permitir que o computador responda ao comando ping na rede.
 
 ---
 
