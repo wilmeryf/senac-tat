@@ -100,7 +100,7 @@ Barra de Tarefas → Configurações de Rede → Alterar opções de adaptador �
 - Desmarcar IPv6  
 - Selecionar TCP/IPv4 → Propriedades
 
-![IPv4 Estático](01-ipv4-estatico.jpg)
+![IPv4 Estático](Imagens/01-ipv4-estatico.jpg)
 
 Objetivo: Trabalhar apenas com IPv4 ou configurar IP manualmente.
 
