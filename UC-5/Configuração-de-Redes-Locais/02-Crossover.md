@@ -98,7 +98,9 @@ Caminho:
 Barra de Tarefas → Configurações de Rede → Alterar opções de adaptador → Ethernet → Propriedades
 
 - Desmarcar IPv6  
-- Selecionar TCP/IPv4 → Propriedades  
+- Selecionar TCP/IPv4 → Propriedades
+
+![IPv4 Estático](01-ipv4-estatico.jpg)
 
 Objetivo: Trabalhar apenas com IPv4 ou configurar IP manualmente.
 
