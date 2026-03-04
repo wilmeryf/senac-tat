@@ -58,12 +58,12 @@ Conectar os dispositivos **somente após o reset completo**, garantindo que o DH
 - Executar no Prompt de Comando: ipconfig
 - Identificar o **Gateway Padrão**
 
-📸 (Inserir imagem do ipconfig aqui)
+![Gateway Padrão](Imagens/01-gateway-padrao.jpg)
 
 - Inserir o IP do gateway no navegador
 - Acessar a **interface web de configuração do roteador**
   
-📸 (Inserir imagem da interface do roteador aqui)
+![Interface do Roteador](Imagens/02-interface-roteador.jpg)
 
 ### Reserva de IP (DHCP Reservation)
 
@@ -81,4 +81,4 @@ Os dispositivos passam a receber sempre o mesmo IP automaticamente.
 - Executar novamente: ipconfig
 - Confirmar IP, gateway e funcionamento da rede
 
-📸 (Inserir imagem do roteador aqui)
+![Roteador](Imagens/03-roteador.jpg)
