@@ -55,7 +55,7 @@ Conectar os dispositivos **somente após o reset completo**, garantindo que o DH
 ### Acesso ao Roteador
 
 - Conectar o notebook ao roteador
-- Executar no Prompt de Comando: ipconfig
+- Executar no Prompt de Comando: ```ipconfig```
 - Identificar o **Gateway Padrão**
 
 ![Gateway Padrão](Imagens/01-gateway-padrao.jpg)
@@ -78,7 +78,7 @@ Os dispositivos passam a receber sempre o mesmo IP automaticamente.
 
 ### Verificação
 
-- Executar novamente: ipconfig
+- Executar novamente: ```ipconfig```
 - Confirmar IP, gateway e funcionamento da rede
 
 ![Roteador](Imagens/03-roteador.jpg)
