@@ -91,7 +91,7 @@ Painel de Controle → Hardware e Sons → Elgin i8 (modelo da impressora) → D
 
 ---
 
-## Cascateamento dos roteadores
+## Cascateamento dos Switches
 
 Os roteadores foram conectados utilizando **porta LAN para porta LAN**.
 
@@ -103,17 +103,11 @@ Roteador Grupo 3 (LAN) ─── Cabo ─── Roteador Grupo 1 (LAN)
 
 Esse tipo de conexão permite que todos os dispositivos fiquem **na mesma rede local**.
 
----
-
-## Configuração dos roteadores
-
 ### Roteador principal
 
 IP: 192.168.0.1  
 DHCP: Ativo  
 Função: Gateway da rede
-
----
 
 ### Roteadores secundários
 
@@ -125,19 +119,13 @@ Exemplo:
 Roteador 2 → 192.168.0.2  
 Roteador 3 → 192.168.0.3  
 
----
-
-## Configuração dos notebooks
+### Configuração dos notebooks
 
 Exemplo de configuração:
 
 IP: 192.168.0.X  
 Máscara: 255.255.255.0  
 Gateway: 192.168.0.1  
-
----
-
-## Resultado
 
 Após o cascateamento:
 
