@@ -58,4 +58,89 @@ Se tudo OK → Mapear as Unidades de Rede.
 
 ---
 
-## Em andamento...
+## Instalação da Impressora
+
+Para realizarmos a instalação da impressora em nosso notebook, é necessário baixarmos o **driver** dela. nosso modelo de impressora é o Elgin i8.
+
+Link do Driver: [https://www.bztech.com.br/downloads/driver-elgin-i8](https://www.bztech.com.br/downloads/driver-elgin-i8)
+
+### Extração do Driver
+
+- Clique com o botão direito no arquivo .zip **Elgin i8 Driver Windows v7.17** e escolha Extrair Tudo.
+- Vá clicando em Next.
+- Na tela que pergunta a porta (onde tem USB), marque Others
+- Clique em Install.
+
+Ele vai copiar os arquivos para o Windows, mas a impressora ainda não sabe "onde morar".
+
+### Em Propriedades da Impressora
+
+- Vá na aba Portas (Ports).
+- Clique no botão Adicionar Porta... (Add Port...).
+- Escolha a opção: Standard TCP/IP Port
+- Clique em Nova Porta... (New Port) e depois em Avançar.
+- No campo aberto digite o IP da impressora, em seguida Avançar
+- Ele agora aparecerá na lista
+
+### Teste final
+
+Após todo processo verifique se a saída está correta.
+
+Caminho:  
+Painel de Controle → Hardware e Sons → Elgin i8 (modelo da impressora) → Dê um botão direito → Propriedades da Impressora → Geral → Imprimir uma página de teste
+
+---
+
+## Cascateamento dos roteadores
+
+Os roteadores foram conectados utilizando **porta LAN para porta LAN**.
+
+Exemplo da ligação:
+
+Roteador Grupo 2 (LAN) ─── Cabo ─── Roteador Grupo 1 (LAN)
+
+Roteador Grupo 3 (LAN) ─── Cabo ─── Roteador Grupo 1 (LAN)
+
+Esse tipo de conexão permite que todos os dispositivos fiquem **na mesma rede local**.
+
+---
+
+## Configuração dos roteadores
+
+### Roteador principal
+
+IP: 192.168.0.1  
+DHCP: Ativo  
+Função: Gateway da rede
+
+---
+
+### Roteadores secundários
+
+DHCP: Desativado  
+IP configurado manualmente para administração.
+
+Exemplo:
+
+Roteador 2 → 192.168.0.2  
+Roteador 3 → 192.168.0.3  
+
+---
+
+## Configuração dos notebooks
+
+Exemplo de configuração:
+
+IP: 192.168.0.X  
+Máscara: 255.255.255.0  
+Gateway: 192.168.0.1  
+
+---
+
+## Resultado
+
+Após o cascateamento:
+
+- 8 notebooks ficaram conectados
+- Todos estavam **na mesma rede local**
+- Foi possível realizar comunicação entre os dispositivos
