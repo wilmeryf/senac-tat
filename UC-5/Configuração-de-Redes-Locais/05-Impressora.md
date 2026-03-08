@@ -4,6 +4,8 @@
 
 Realização das tarefas anteriores com 3 notebooks conectados em 1 roteador, acrescentendo a instalação da impressora e outros.
 
+![Impressora](Imagens/01-impressora.jpg)
+
 ---
 
 ## Reservar o IP da impressora
@@ -31,6 +33,8 @@ Definiremos o **Nome** dos notebooks e um **Grupo de Trabalho** único para rede
 Caminho:  
 Painel de controle → Sistema e Segurança → Sistema → Sobre → Configurações Avançadas do Sistema → Nome do Computador → Alterar
 
+![Nome e Grupo de Trabalho](Imagens/02-nome-e-grupo.jpg)
+
 Em Prompt de Comando:
 ```
 hostname
@@ -52,9 +56,13 @@ Restrita (Leitura)
 
 - Em "Explorador de Arquivos" acessar "Rede" para descoberta de dispositivos
 
+![Pasta Pública e Restrita](Imagens/03-publica-e-restrita.jpg)
+
 ### Locais de rede
 Notebook de compartilhamento → acessar as pastas compartilhadas, testar as permissões.  
 Se tudo OK → Mapear as Unidades de Rede ( usar unidade C:\ ).
+
+![Locais de rede](Imagens/04-locais-de-rede.jpg)
 
 ---
 
