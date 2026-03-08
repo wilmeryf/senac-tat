@@ -43,7 +43,7 @@ Aparece o nome do dispositivo.
 
 - Definir um notebook para compartilhamento de pastas
 - Fazer a reserva do IP de compartilhamento
-- Criar uma Pasta Pública e uma Pasta Restrita neste computador ( usar unidade C:\ )
+- Criar uma Pasta Pública e uma Pasta Restrita neste computador
 - Compartilhar essas pastas com usuário
 
 ### sendo que:
@@ -52,9 +52,9 @@ Restrita (Leitura)
 
 - Em "Explorador de Arquivos" acessar "Rede" para descoberta de dispositivos
 
-### Abrir os computadores (para testes)
+### Locais de rede
 Notebook de compartilhamento → acessar as pastas compartilhadas, testar as permissões.  
-Se tudo OK → Mapear as Unidades de Rede.
+Se tudo OK → Mapear as Unidades de Rede ( usar unidade C:\ ).
 
 ---
 
