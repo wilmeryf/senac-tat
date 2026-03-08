@@ -103,6 +103,7 @@ Caminho:
 Painel de Controle → Hardware e Sons → Elgin i8 (modelo da impressora) → Dê um botão direito → Propriedades da Impressora → Geral → Imprimir uma página de teste
 
 ![Imprimir uma Página](Imagens/06-imprimir-pagina.jpg)
+
 ![Página de Teste](Imagens/07-pagina-de-teste.jpg)
 
 ---
