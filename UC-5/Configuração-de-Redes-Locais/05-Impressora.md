@@ -77,6 +77,9 @@ Link do Driver: [https://www.bztech.com.br/downloads/driver-elgin-i8](https://ww
 ### Extração do Driver
 
 - Clique com o botão direito no arquivo .zip **Elgin i8 Driver Windows v7.17** e escolha Extrair Tudo.
+
+![Driver da Impressora](Imagens/05-driver-impressora.jpg)
+
 - Vá clicando em Next.
 - Na tela que pergunta a porta (onde tem USB), marque Others
 - Clique em Install.
@@ -98,6 +101,9 @@ Após todo processo verifique se a saída está correta.
 
 Caminho:  
 Painel de Controle → Hardware e Sons → Elgin i8 (modelo da impressora) → Dê um botão direito → Propriedades da Impressora → Geral → Imprimir uma página de teste
+
+![Imprimir uma Página](Imagens/06-imprimir-pagina.jpg)
+![Página de Teste](Imagens/07-pagina-de-teste.jpg)
 
 ---
 
