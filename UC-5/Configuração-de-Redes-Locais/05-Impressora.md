@@ -60,7 +60,7 @@ Se tudo OK → Mapear as Unidades de Rede.
 
 ## Instalação da Impressora
 
-Para realizarmos a instalação da impressora em nosso notebook, é necessário baixarmos o **driver** dela. nosso modelo de impressora é o Elgin i8.
+Para realizarmos a instalação da impressora em nosso notebook, é necessário baixarmos o **driver** dela. O modelo de impressora é o Elgin i8.
 
 Link do Driver: [https://www.bztech.com.br/downloads/driver-elgin-i8](https://www.bztech.com.br/downloads/driver-elgin-i8)
 
@@ -93,13 +93,13 @@ Painel de Controle → Hardware e Sons → Elgin i8 (modelo da impressora) → D
 
 ## Cascateamento dos Switches
 
-Os roteadores foram conectados utilizando **porta LAN para porta LAN**.
+Nesta atividade os roteadores foram conectados utilizando **porta LAN para porta LAN**.
 
 Exemplo da ligação:
 
-Roteador Grupo 2 (LAN) ─── Cabo ─── Roteador Grupo 1 (LAN)
+Roteador Grupo 1 (WAN) ─── Cabo ─── Internet / Rede
 
-Roteador Grupo 3 (LAN) ─── Cabo ─── Roteador Grupo 1 (LAN)
+Roteador Grupo 2 (LAN) ─── Cabo ─── Roteador Grupo 1 (LAN)
 
 Esse tipo de conexão permite que todos os dispositivos fiquem **na mesma rede local**.
 
@@ -109,7 +109,7 @@ IP: 192.168.0.1
 DHCP: Ativo  
 Função: Gateway da rede
 
-### Roteadores secundários
+### Roteadores secundário
 
 DHCP: Desativado  
 IP configurado manualmente para administração.
@@ -117,7 +117,6 @@ IP configurado manualmente para administração.
 Exemplo:
 
 Roteador 2 → 192.168.0.2  
-Roteador 3 → 192.168.0.3  
 
 ### Configuração dos notebooks
 
@@ -127,8 +126,9 @@ IP: 192.168.0.X
 Máscara: 255.255.255.0  
 Gateway: 192.168.0.1  
 
-Após o cascateamento:
+### Resultado
 
-- 8 notebooks ficaram conectados
+- 5 notebooks ficaram conectados
 - Todos estavam **na mesma rede local**
-- Foi possível realizar comunicação entre os dispositivos
+
+Após o cascateamento foi possível realizar comunicação entre os dispositivos.
