@@ -58,8 +58,10 @@ Restrita (Leitura)
 
 ![Pasta Pública e Restrita](Imagens/03-publica-e-restrita.jpg)
 
+Notebook de compartilhamento → acessar as pastas compartilhadas, testar as permissões.
+
 ### Locais de rede
-Notebook de compartilhamento → acessar as pastas compartilhadas, testar as permissões.  
+
 Se tudo OK → Mapear as Unidades de Rede ( usar unidade C:\ ).
 
 ![Locais de rede](Imagens/04-locais-de-rede.jpg)
