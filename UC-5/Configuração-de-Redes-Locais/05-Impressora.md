@@ -145,7 +145,11 @@ Gateway: 192.168.0.1
 
 ### Resultado
 
+![Lista de Clientes DHCP](Imagens/08-lista-de-clientes.jpg)
+
 - 5 notebooks ficaram conectados
+  - **Roteador principal:** RR e AD
+  - **Roteador secundário:** PC2, PC3 e PC4
 - Todos estavam **na mesma rede local**
 
 Após o cascateamento foi possível realizar comunicação entre os dispositivos.
