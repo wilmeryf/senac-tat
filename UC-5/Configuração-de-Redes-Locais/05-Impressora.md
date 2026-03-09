@@ -108,7 +108,7 @@ Painel de Controle → Hardware e Sons → Elgin i8 (modelo da impressora) → D
 
 ---
 
-## Cascateamento dos Switches
+## 🔗 Cascateamento dos Switches
 
 Nesta atividade os roteadores foram conectados utilizando **porta LAN para porta LAN**.
 
