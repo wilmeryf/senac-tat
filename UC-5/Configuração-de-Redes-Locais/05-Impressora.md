@@ -81,7 +81,8 @@ Link do Driver: [https://www.bztech.com.br/downloads/driver-elgin-i8](https://ww
 ![Driver da Impressora](Imagens/05-driver-impressora.jpg)
 
 - Vá clicando em Next.
-- Na tela que pergunta a porta (onde tem USB), marque Others
+- Na tela que pergunta a Printer Interface, selecione Other
+- Select Printer Series, selecione a opção
 - Clique em Install.
 
 Ele vai copiar os arquivos para o Windows, mas a impressora ainda não sabe "onde morar".
