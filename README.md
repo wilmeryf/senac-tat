@@ -1,4 +1,5 @@
 ![GitHub License](https://img.shields.io/github/license/wilmeryf/senac-tat?style=for-the-badge) -
+![Aulas do Senac](https://img.shields.io/badge/Aulas-Senac-yellow?style=for-the-badge&logo=windows) -
 ![GitHub stars](https://img.shields.io/github/stars/wilmeryf/senac-tat?style=for-the-badge) -
 ![GitHub last commit](https://img.shields.io/github/last-commit/wilmeryf/senac-tat?style=for-the-badge)
 
