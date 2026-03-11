@@ -153,4 +153,35 @@ Gateway: 192.168.0.1
   - **Roteador secundário:** PC2, PC3 e PC4
 - Todos estavam **na mesma rede local**
 
+---
+
+## Topologia da Rede
+
+Diagrama lógico da rede usada neste laboratório.
+
+```mermaid
+graph TD
+
+WAN[Internet / WAN do provedor]
+
+Router1[Roteador Wireless Principal <br> 1 Porta WAN <br> 4 Portas LAN]
+Router2[Roteador Wireless Secundário <br> 1 Porta WAN <br> 4 Portas LAN]
+
+RR(Notebook 1)
+AD(Notebook 2)
+PC2[Notebook 3]
+PC3[Notebook 4]
+PC4[Notebook 5]
+
+WAN --> |Porta WAN| Router1
+
+Router1 --> |LAN 1| RR
+Router1 --> |LAN 2| AD
+Router1 --> |LAN 3| Router2
+
+Router2 --> |LAN 1| PC2
+Router2 --> |LAN 2| PC3
+Router2 --> |LAN 3| PC4
+```
+
 Após o cascateamento foi possível realizar comunicação entre os dispositivos.
