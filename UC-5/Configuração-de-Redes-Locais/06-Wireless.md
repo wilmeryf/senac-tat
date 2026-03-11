@@ -62,4 +62,4 @@ Router --> |WLAN| Smartphone
 ```
 ### Imagem da topologia usada neste laboratório:
 
-![Topologia](Imagens/05-topologia-wireless.jpg)
+![Topologia](Imagens/05-topologia-wireless.png)
