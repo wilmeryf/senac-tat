@@ -8,7 +8,7 @@ Aulas do Curso Técnico em Informática do SENAC Tatuapé
 
 ---
 
-- UC-1: Não documentada
+- UC-1: Apenas uma parte desta UC documentada*
 - UC-2: Não documentada
 - UC-3: **Planejar e executar a manutenção de computadores**
 - UC-4: Não documentada
