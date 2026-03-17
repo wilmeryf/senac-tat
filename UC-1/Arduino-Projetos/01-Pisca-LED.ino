@@ -1,6 +1,7 @@
 /**
   Pisca LED
   @author Anderson Wilmer
+  Data: 08 de setembro de 2025
 */
 
 void setup() {
