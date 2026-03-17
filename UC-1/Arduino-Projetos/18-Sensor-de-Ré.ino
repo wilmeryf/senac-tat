@@ -1,5 +1,5 @@
 /**
-  Data: 19 de setembro de 2025
+  Data: 23 de setembro de 2025
 */
 
 // Distance sensor
