@@ -2,7 +2,7 @@
 
 > **Data:** 18 de março de 2026
 
-configuramos um código html para o arduino.
+Configuramos um código html para o arduino.
 
 ---
 
