@@ -40,9 +40,12 @@ Primeira vez configurando o arduino como IoT.
 <body>
     <h1>Arduino IoT</h1>
     <p>Exemplo 1: Controle de dispositivos</p>
-    <h2>Controle do LED</h2>
-    <a href="/?led-on" class="on">ON</a>
-    <a href="/?led-off" class="off">OFF</a>
+    <h2>Controle do LED VERMELHO</h2>
+    <a href="/?led-on1" class="on">ON</a>
+    <a href="/?led-off1" class="off">OFF</a>
+    <h2>Controle do LED AMARELO</h2>
+    <a href="/?led-on2" class="on">ON</a>
+    <a href="/?led-off2" class="off">OFF</a>
 </body>
 </html>
 ```
@@ -173,4 +176,6 @@ void loop() {
 
 - Para esta atividade reulitizamos o código html e criamos um novo para o arduino ide.
 - Montamos o arduino real com as peças que adicionamos.
-- Conseguimos nos comunicar com o arduino através dos nossos dispositivos móveis.
+  - 2 LEDs, resistores e jumpers.
+- Conexão do arduino na rede. 
+- Conseguimos nos comunicar com o arduino através dos nossos dispositivos móveis com uma interação efetuada no navegador.
