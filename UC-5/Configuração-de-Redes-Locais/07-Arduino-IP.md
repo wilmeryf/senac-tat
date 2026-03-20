@@ -34,6 +34,7 @@ byte mac[6] = { 0x90, 0xA2, 0xDA, 0x38, 0x53, 0xB6 };
 
 ## 💻 Código Arduino IDE
 
+```c++
 /**  
   Arduino Ethernet  
   @author Ryan, Reginaldo e Arderson  
@@ -69,7 +70,8 @@ void setup() {
 }  
 
 void loop() {  
-}  
+}
+```  
 
 ---
 
