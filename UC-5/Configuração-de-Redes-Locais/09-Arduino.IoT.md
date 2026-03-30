@@ -193,5 +193,8 @@ void loop() {
 - Para esta atividade reulitizamos o código html e criamos um novo para o arduino ide.
 - Montamos o arduino real com as peças que adicionamos.
   - 2 LEDs, resistores e jumpers.
-- Conexão do arduino na rede. 
+- Conexão do arduino na rede.
+
+![Arduino IoT](Imagens/03-arduino-iot.jpg)
+
 - Conseguimos nos comunicar com o arduino através dos nossos dispositivos móveis com uma interação efetuada no navegador.
