@@ -127,6 +127,8 @@ void loop() {
 
 ---
 
-## Concluaão
+## Conclusão
+
+![Página WEB do Arduino](Imagens/02-web.jpg)
 
 Ao final desta atividade testamos o nosso projeto acessando o IP do arduino no nosso navegador pelo celular.
