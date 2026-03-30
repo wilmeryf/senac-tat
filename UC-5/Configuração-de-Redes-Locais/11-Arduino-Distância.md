@@ -258,13 +258,13 @@ Ele só mede a distância.
 
 Ele marca distância, aparece uma mensagem "ALERTA" na web, e o LED liga.
 
-![Página WEB do Arduino com Sensor de Distância](Imagens/07-web-distancia2.jpg)
+![Página WEB do Arduino com Sensor de Distância](Imagens/08-web-distancia2.jpg)
 
 ### Entre 2cm e 10cm
 
 Ele marca distância, aparece uma mensagem "DANGER" na web, o LED pisca e o sensor dispara quando o LED liga.
 
-![Página WEB do Arduino com Sensor de Distância](Imagens/07-web-distancia3.jpg)
+![Página WEB do Arduino com Sensor de Distância](Imagens/09-web-distancia3.jpg)
 
 ---
 
