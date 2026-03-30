@@ -4,6 +4,8 @@
 
 Conexão de um Arduino com Ethernet Shield na rede.
 
+![Arduino com Ethernet Shield](Imagens/01-arduino-ethernet-shield.jpg)
+
 ---
 
 ## "Processo de Automação Industrial"
