@@ -252,19 +252,19 @@ O alcance de um sensor ultrassônico é de 2 cm a 4 metros. Então na div do ale
 
 Ele só mede a distância.
 
-![Página WEB do Arduino com Sensor de Distância](Imagens/07-web-distancia1-jpg)
+![Página WEB do Arduino com Sensor de Distância](Imagens/07-web-distancia1.jpg)
 
 ### Entre 11cm e 30cm
 
 Ele marca distância, aparece uma mensagem "ALERTA" na web, e o LED liga.
 
-![Página WEB do Arduino com Sensor de Distância](Imagens/07-web-distancia2-jpg)
+![Página WEB do Arduino com Sensor de Distância](Imagens/07-web-distancia2.jpg)
 
 ### Entre 2cm e 10cm
 
 Ele marca distância, aparece uma mensagem "DANGER" na web, o LED pisca e o sensor dispara quando o LED liga.
 
-![Página WEB do Arduino com Sensor de Distância](Imagens/07-web-distancia3-jpg)
+![Página WEB do Arduino com Sensor de Distância](Imagens/07-web-distancia3.jpg)
 
 ---
 
