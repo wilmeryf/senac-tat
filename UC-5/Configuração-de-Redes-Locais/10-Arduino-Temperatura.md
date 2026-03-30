@@ -212,6 +212,6 @@ void loop() {
 - Montagem do arduino com sensor
   - DHT11, resistor e jumpers
 
-![Página WEB do Arduino](Imagens/05-arduino-web-temperatura.jpg)
+![Página WEB do Arduino](Imagens/05-web-temperatura.jpg)
 
 - Integração do arduino na rede com o sensor
