@@ -120,12 +120,12 @@ write
 
 ---
 
-## Topologia
+## Topologia e Portas
 
 Topologia feita no Cisco Packet Tracer:
 
 ![Topologia](Imagens/01-topologia-vlan.png)
 
-As portas dentro da VLAN também:
+As portas dentro das VLANs:
 
 ![Show VLAN Brief](Imagens/02-show-vlan-brief.png)
