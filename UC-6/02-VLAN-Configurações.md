@@ -8,7 +8,7 @@ Revendo redes virtuais e também atividades anteriores incluídas nesta.
 
 ## Password
 
-Para segurança existe forma de colocar senha antes de entrar ao terminal, deve-se entrar no **modo de configuração** e digitar as seguintes linhas de comando:
+Para segurança existe uma forma de colocar senha antes de entrar ao terminal, deve-se entrar no **modo de configuração** e digitar as seguintes linhas de comando:
 
 ```
 line con 0
@@ -71,7 +71,7 @@ Definimos cada porta em sua VLAN, e ao final também modificamos a porta entre o
 interface g0/1
 switchport mode trunk
 ```
-↳ o `mode trunk` funciona como um tráfego entre VLANs.
+↳ O `mode trunk` funciona como um tráfego entre VLANs.
 
 - Não é necessário colocar o mode trunk nos dois switches, apenas em um já basta.
 - A porta g0/1 já não aparece em `show vlan brief`, busque ele em `show run`.
