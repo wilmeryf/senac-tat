@@ -22,8 +22,6 @@ Também é possível colocar senha para entrar no modo privilegiado (estando no 
 enable password SUASENHA
 ```
 
-e
-
 ```
 enable secret SUASENHA (mais recomendável)
 ```
