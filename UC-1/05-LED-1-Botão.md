@@ -1,7 +1,15 @@
+# Leitura digital de um LED com 1 botão
+
+> **Data:** 12 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 /**
-	Leitura Digital - ligar e desligar o LED com apenas um botão
+  Leitura Digital - ligar e desligar o LED com apenas um botão
   @author Anderson Wilmer
-  Data: 12 de setembro de 2025
 */
 
 // C++ code
@@ -28,3 +36,12 @@ void loop()
     digitalWrite(13, LOW);
   }
 }
+```
+
+---
+
+## Imagem do Arduino
+
+Feito no tinkercad:
+
+![Acionamento de um LED com 1 botão](Imagens/04-led-um-botao.png)
