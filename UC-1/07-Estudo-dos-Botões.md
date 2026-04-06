@@ -1,7 +1,15 @@
+# Estudo dos botões
+
+> **Data:** 15 de setembro de 2025
+
+---
+
+## Código
+  
+```ino  
 /**
   Estudo dos botôes (PULL DOWN, PULL UP, INPUT_PULLUP)
   @author Anderson Wilmer
-  Data: 15 de setembro de 2025
 */
 
 void setup() {
@@ -28,3 +36,12 @@ void loop() {
   Serial.println(botao3);
 
 }
+```
+
+---
+
+## Imagem do Arduino
+
+Feito no tinkercad:
+
+![Estudos dos botões](Imagens/06-estudo-dos-botoes.png)
