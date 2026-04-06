@@ -1,7 +1,15 @@
+# Leitura Analógica
+
+> **Data:** 16 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 /**
   Leitura analógica - Luz de cortesia
   @author Anderson Wilmer
-  Data: 16 de setembro de 2025
 */
 
 void setup() {
@@ -15,3 +23,12 @@ void loop() {
   Serial.println(sensor);
 
 }
+```
+
+---
+
+## Imagem do Arduino
+
+Feito no tinkercad:
+
+![Leitura Analógica](Imagens/11-leitura-analogica.png)
