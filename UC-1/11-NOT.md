@@ -1,8 +1,16 @@
+# Funções lógicas - NOT
+
+> **Data:** 16 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 /**
   Funções lógicas - NOT
   Acender ou apagar um LED com um botão
   @author Anderson Wilmer
-  Data: 16 de setembro de 2025
 */
 
 void setup() {
@@ -29,3 +37,12 @@ void loop() {
     delay(150); //minimizar efeito mecânico do botão
 
 }
+```
+
+---
+
+## Imagem do Arduino
+
+Feito no tinkercad:
+
+![NOT](Imagens/10-not.png)
