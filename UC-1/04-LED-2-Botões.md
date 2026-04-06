@@ -1,7 +1,15 @@
+# Leitura digital de um LED com 2 botões
+
+> **Data:** 11 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 /**
   Leitura digital - acionamento de um LED com 2 botões
   @author Anderson Wilmer
-  Data: 11 de setembro de 2025
 */
 
 int botao1; //variável que faz a leitura do botão (0 ou 1), que pode ser 0 ou 1
@@ -29,3 +37,12 @@ void loop() {
   }
 
 }
+```
+
+---
+
+## Imagem do Arduino
+
+Feito no tinkercad:
+
+![Acionamento de um LED com 2 botões](Imagens/03-led-dois-botoes.png)
