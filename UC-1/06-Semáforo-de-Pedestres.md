@@ -1,7 +1,15 @@
+# Semáforo de Pedestres
+
+> **Data:** 12 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 /**
   Leitura Digital - semáforo de pedestres
   @author Anderson Wilmer
-  Data: 12 de setembro de 2025
 */
 
 int botao;
@@ -56,6 +64,14 @@ void loop() {
 
     digitalWrite(7, HIGH);
     digitalWrite(6, LOW);
-  }                                                                                                                                                                                                                   
-
+  } 
 }        
+```
+
+---
+
+## Imagem do Arduino
+
+Feito no tinkercad:
+
+![Semáforo de Pedestres](Imagens/05-semaforo-pedestres.png)
