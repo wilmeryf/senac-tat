@@ -1,7 +1,16 @@
+# While | Do while
+
+> **Data:** 18 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 /**
   Estudo da estruturas de repetição while | do...while
   @author Anderson Wilmer
-  Data: 18 de setembro de 2025
+
   Sintaxe:
 
   while (condição) {
@@ -37,3 +46,8 @@ void setup() {
 void loop() {
 
 }
+```
+
+---
+
+Está atividade não foi necessário uma protoboard e nenhum componente, apenas o arduino.
