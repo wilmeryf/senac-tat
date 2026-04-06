@@ -1,8 +1,16 @@
+# Funções lógicas - AND
+
+> **Data:** 15 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 /**
   Funções lógicas - AND
   Simulador de uma prensa bi-manual
   @author Anderson Wilmer
-  Data: 15 de setembro de 2025
 */
 
 void setup() {
@@ -24,3 +32,12 @@ void loop() {
   }
 
 }
+```
+
+---
+
+## Imagem do Arduino
+
+Feito no tinkercad:
+
+![AND](Imagens/07-and.png)
