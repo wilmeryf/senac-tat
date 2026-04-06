@@ -1,8 +1,16 @@
+# Desafio OR - Escada Rolante
+
+> **Data:** 16 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 /**
-  Desafio - OR Escada Rolante
+  Desafio OR - Escada Rolante
   Simulador de uma parada de emergência da escada rolante
   @author Anderson Wilmer
-  Data: 16 de setembro de 2025
 */
 
 void setup() {
@@ -23,3 +31,12 @@ void loop() {
   }
 
 }
+```
+
+---
+
+## Imagem do Arduino
+
+Feito no tinkercad:
+
+![Escada Rolante](Imagens/09-escada-rolante.png)
