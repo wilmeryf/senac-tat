@@ -1,7 +1,15 @@
+# Fundamentos da Programação
+
+> **Data:** 11 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 /**
   Fundamentos da programação
   @author Anderson Wilmer
-  Data: 11 de setembro de 2025
 */
 
 /**
@@ -66,3 +74,8 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
+```
+
+---
+
+Está atividade não foi necessário uma protoboard e nenhum componente, apenas o arduino.
