@@ -1,7 +1,12 @@
-/**
-  Data: 23 de setembro de 2025
-*/
+# Sensor de Ré
 
+> **Data:** 23 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 // Distance sensor
 
 #pragma once
@@ -180,3 +185,16 @@ void loop() {
 
   delay(200);  //recomendação da documentação
 }
+```
+
+OBS: Aqui foi necessário incluir a biblioteca inteira no código, mas no Arduino IDE só é preciso colocar o nome da biblioteca.
+
+Exemplo: `#include <DistanceSensor.h>`
+
+---
+
+## Imagem do Arduino
+
+Feito no tinkercad:
+
+![Sensor de Ré](Imagens/15-sensor-re.png)
