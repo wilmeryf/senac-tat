@@ -1,7 +1,15 @@
+# Semáforo Simples
+
+> **Data:** 09 e 10 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 /**
   Semáforo Simples
   @author Anderson Wilmer
-  Data: 09 e 10 de setembro de 2025
 */
 
 //Variável para ajustar o tempo 
@@ -63,3 +71,12 @@ void loop() {
   delay(tempo2);
 
 }
+```
+
+---
+
+## Imagem do Arduino
+
+Feito no tinkercad:
+
+![Semáforo Simples](Imagens/02-semaforo-simples.png)
