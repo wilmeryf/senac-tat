@@ -1,7 +1,15 @@
+# Estudo das Funções
+
+> **Data:** 18 de setembro de 2025
+
+---
+
+## Código
+
+```ino
 /**
   Estudo das funções
   @author Anderson Wilmer
-  Data: 18 de setembro de 2025
 */
 
 void setup() {
@@ -67,3 +75,12 @@ void apagarLED() {
   digitalWrite(4, LOW);
   digitalWrite(5, LOW);
 }
+```
+
+---
+
+## Imagem do Arduino
+
+Feito no tinkercad:
+
+![Funções](Imagens/13-funcoes.png)
