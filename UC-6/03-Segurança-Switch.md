@@ -43,9 +43,9 @@ Para forçar a parada dê CTRL + C.
 
 ### STP (Spanning Tree Protocol)
 
-![STP](Imagens/04-topologia-stp.png)
-
 É um protocolo de rede que permite criar **redundância** entre switches sem deixar a rede travar.
+
+![STP](Imagens/04-topologia-stp.png)
 
 - Detecta dois ou mais cabos ligando os mesmos pontos, ele **bloqueia** os extras.
 - Garante que, logicamente, só exista **um caminho ativo.**
@@ -54,9 +54,9 @@ Para forçar a parada dê CTRL + C.
 
 ### LACP (Link Aggregation Control Protocol)
 
-![LACP](Imagens/05-topologia-lacp.png)
-
 É um protocolo de controle de rede que permite agrupar várias conexões físicas entre switches para que elas funcionem como um único link.
+
+![LACP](Imagens/05-topologia-lacp.png)
 
 Para realizar a configuração deve-se modificar os dois switches, um que dá o dados, o ativo:
 
