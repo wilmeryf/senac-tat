@@ -8,8 +8,7 @@ Saímos da parte de configuação de LANs para começar WAN, apartir dos roteado
 
 ## Situação
 
-Basicamente estamos simulando uma conexão entre empresas filiais de telecomunicação. 
-Imaginando um cenário em que temos empresas em dois estados diferentes, de exemplo usaremos os estados de São Paulo e Rio de Janeiro.
+Basicamente estamos simulando uma conexão entre empresas filiais de telecomunicação. Imaginando um cenário em que temos empresas em dois estados diferentes, de exemplo usaremos os estados de São Paulo e Rio de Janeiro.
 
 ---
 
@@ -85,16 +84,16 @@ exit
 ```
 copy run star
 ```
-↳ Serve para salvar permanentemente todas as configurações feitas no roteador
+↳ Serve para salvar permanentemente todas as configurações feitas no roteador.
 
 ---
 
 ## Topologia
 
-Feita no Cisco Packet Tracer:
+Topologia feita no Cisco Packet Tracer:
 
 ![Interligação de LANs com roteadores](Imagens/06-topologia-rede-wan-lan.png)
 
 - Foram realizados os comandos do terminal nos dois roteadores.
 - Apenas com a diferença do clock rate.
-- Para ver onde cada configuração, dê um `show run`.
+- Para ver onde está cada configuração dê um `show run`.
