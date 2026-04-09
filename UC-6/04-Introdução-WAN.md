@@ -74,7 +74,7 @@ exit
 
 ```
 router rip
-netwrok INTERFACEDAREDESERIAL
+network INTERFACEDAREDESERIAL
 network INTERFACEDAREDELOCAL
 exit
 ```
