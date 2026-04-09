@@ -41,11 +41,11 @@ Até agora fizemos apenas a conexão entre os componentes, agora iremos consegui
 ```
 hostname NOMEDOROTEADOR
 ```
-↳ Aqui não muda, mesmo comando de nomear do switch, estando no modo e configuração.
+↳ Aqui não muda, é o mesmo comando de nomear do switch estando no modo de configuração.
 
 ```
 int f0/NÚMERODAPORTA
-ip add ENDEREÇOIP MÁSCARADESUB-REDE
+ip add ENDEREÇOIP MÁSCARADESUBREDE
 no shutdown
 description DESCRIÇÃODAINTERFACE
 exit
@@ -57,7 +57,7 @@ exit
 
 ```
 int serial0/NÚMERODAPORTA
-ip add ENDEREÇOIP MÁSCARADESUB-REDE
+ip add ENDEREÇOIP MÁSCARADESUBREDE
 no shutdown
 description DESCRIÇÃODAINTERFACESERIAL
 bandwidth VELOCIDADETEÓRICA
@@ -95,4 +95,6 @@ Feita no Cisco Packet Tracer:
 
 ![Interligação de LANs com roteadores](Imagens/06-topologia-rede-wan-lan.png)
 
-Foram realizados os comandos do terminal nos dois roteadores, apenas com a diferença do clock rate.
+- Foram realizados os comandos do terminal nos dois roteadores.
+- Apenas com a diferença do clock rate.
+- Para ver onde cada configuração, dê um `show run`.
