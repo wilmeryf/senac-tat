@@ -36,7 +36,7 @@ Também acrescentamos os gateways nos PCs, as portas serial tem IPs, e para melh
 
 ## Configuração do Terminal
 
-Até agora fizemos apenas a conexão entre os componentes, agora iremos conseguir ligar essa estrutura com as 5 seguintes etapas.
+Até agora fizemos apenas a conexão entre os componentes, agora iremos conseguir ligar essa estrutura.
 
 ```
 hostname NOMEDOROTEADOR
