@@ -23,10 +23,10 @@ Para conexão colocamos os IPs em cada PC e usamos portas fastEthernet normalmen
 - 2 Roteadores: 1 para cada switch
 - 2 Notebooks: 1 para cada roteador
 
-Para conexão colocamos duas portas serial **WIC-1T** nos dois roteadores, também o cabo:
+Para conexão colocamos duas portas serial **WIC-1T** nos dois roteadores, também o cabo serial:
 
-**DCE (relógio):** que começa.  
-**DTE:** que termina.
+**DCE (ponta do cabo, que é do relógio):** que começa.  
+**DTE (outra ponta do cabo):** que termina.
 
 Nas portas seriais entre os dois roteadores (só é necessário um cabo).
 
