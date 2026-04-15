@@ -6,7 +6,7 @@ Começando com as configurações iniciais do windows server.
 
 ---
 
-## Virtual Box
+## VirtualBox
 
 ### Componentes
 
