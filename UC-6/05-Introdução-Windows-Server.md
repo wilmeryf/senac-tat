@@ -1,6 +1,6 @@
 # Introdução ao Windows Server
 
-> **Data:** 15 de abril de 2026
+> **Data:** 14 e 15 de abril de 2026
 
 Começando com as configurações iniciais do windows server.
 
