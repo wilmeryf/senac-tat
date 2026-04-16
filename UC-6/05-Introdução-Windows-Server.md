@@ -107,3 +107,33 @@ Em "Este computador" se vê os dois discos espelhados estão como se fossem apen
 ![Disco Espelhado](Imagens/04-disco-espelhado.png)
 
 Em caso de falha de disco, é necessário remover o espelhamento do disco que está como “Faltando” e, em seguida, adicionar um novo disco para recriar o espelhamento.
+
+**Dica:** mesmo se tiver uma partição criada do tipo Básico, ainda sim pode-se alterá-lo, clicando nele em "Adicionar Espelho".
+
+---
+
+## RAID 5
+
+RAID 5 usa paridade, uma forma de proteger os dados sem precisar duplicar tudo.
+
+- Requer no mínimo **3 discos**  
+- Perde o equivalente a **1 disco de espaço**
+
+**Regra de Paridade:**
+
+| Disco A   | Disco B   | Paridade  |
+|-----------|-----------|-----------|
+|     0     |     0     |     0     |
+|     1     |     1     |     0     |
+|     1     |     0     |     1     |
+|     0     |     1     |     1     |
+
+É um “cálculo” baseado nos dados, serve para reconstruir informações se 1 disco falhar.
+
+Quanto mais discos:
+- Maior desempenho  
+- Maior risco geral de falha
+ 
+Botão direito no disco → "Novo Volume RAID-5"
+
+![RAID 5](Imagens/05-raid-5.png)
