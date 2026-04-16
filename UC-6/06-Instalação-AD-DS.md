@@ -78,7 +78,7 @@ Nome gerado automaticamente
 ↳ Versão curta do domínio
 
 ### 6. Revisão e instalação
-Examinar opções > Verificar pré-requisitos > Instalar  
+Examinar opções → Verificar pré-requisitos → Instalar  
 ↳ Servidor será reiniciado
 
 **Resultado:** Servidor se torna um **Controlador de Domínio (DC)**  
