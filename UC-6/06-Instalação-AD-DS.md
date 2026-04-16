@@ -1,4 +1,4 @@
-# Instalação do Serviço de Dominio AD
+# Instalação do Serviço de Domínio AD
 
 > **Data:** 15 de abril de 2026
 
@@ -54,7 +54,7 @@ Representa a localização física da rede, exemplo: RJ e SP.
 
 ---
 
-## Serviço de Dominio: Active Directory
+## Serviço de Domínio: Active Directory
 
 ### 1. Instalar o serviço
 Gerenciar → Adicionar funções e recursos → Serviços de Domínio Active Directory → Instalar  
