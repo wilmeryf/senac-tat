@@ -64,6 +64,8 @@ IPv4 → Dê um botão direito → Novo Escopo
 Pasta "Escopo" → Concessões ativas  
 ↳ aqui aparecem os usuários que estão no servidor.
 
----
+![Concessões Ativas](Imagens/08-concessoes-ativas.png)
 
-## Em contrução...
+Comandos na Rede Interna:  
+`ipconfig /all` = ver se a rede interna funcionou  
+`nslookup` = ver se o DNS do servidor funcionou
