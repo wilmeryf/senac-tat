@@ -66,6 +66,6 @@ Pasta "Escopo" → Concessões ativas
 
 ![Concessões Ativas](Imagens/08-concessoes-ativas.png)
 
-Comandos na Rede Interna:  
+No PC dos usuários, comandos na Rede Interna:  
 `ipconfig /all` = ver se a rede interna funcionou  
 `nslookup` = ver se o DNS do servidor funcionou
