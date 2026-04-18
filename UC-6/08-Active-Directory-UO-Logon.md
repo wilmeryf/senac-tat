@@ -46,7 +46,7 @@ Preencha com os dados, senha e conclua a criação.
 
 ## Controle
 
-Em seguida duas formas de controle da conta:
+Em seguida, duas formas de controle da conta:
 
 - Horário de logon
 - Onde fazer o logon
