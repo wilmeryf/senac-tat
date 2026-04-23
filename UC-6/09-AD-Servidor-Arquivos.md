@@ -45,7 +45,7 @@ OBS: o nome das pastas não deve ter nenhum tipo de acentuação.
 Está pasta é que todos podem entrar.
 
 Caminho:  
-Botão direito → Propriedades → Compartilhamento → Compartilhar → Todos > Leitura/Gravação
+Botão direito → Propriedades → Compartilhamento → Compartilhar → Todos → Leitura/Gravação
 
 ### Pastas dos Grupos
 
