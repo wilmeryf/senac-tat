@@ -69,10 +69,11 @@ Isso permite que todos os usuários vejam e alterem a pasta até aqui.
 2. Desabilitar herança
 3. logo, em Converter permissões herdadas...
 4. Ok
-5. Remova "Usuários do Domínio"
-6. Adicione o grupo específico
-7. Permitir "Modificar" (inclui "Gravar" automaticamente)
-8. Ok
+5. entre em "Editar"
+6. Remova "Usuários do Domínio"
+7. Adicione o grupo específico
+8. Permitir "Modificar" (inclui "Gravar" automaticamente)
+9. Ok
 
 Se não desabilitássemos a herança não conseguiriamos editar o grupo.
 
