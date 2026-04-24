@@ -1,4 +1,4 @@
-# Contiunuação do Servidor de Arquivos
+# Continuação do Servidor de Arquivos
 
 > **Data:** 23 de abril de 2026
 
