@@ -42,7 +42,7 @@ Selecionar os usuários → Botão direito → Propriedades → Perfil → Habil
 
 Exemplo: compras.cmd
 
-![Scripts logon](Imagens/19-scripts-logon.png)
+![Scripts logon](Imagens/19-script-logon.png)
 
 Neste exemplo eu colocaria no perfil dos usuários que estão no grupo "Compras".
 
