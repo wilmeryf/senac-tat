@@ -8,7 +8,7 @@ Pasta base dos usuários e segurança
 
 ## Criação
 
-Criar uma pasta com nome "Home", porém na dentro do compartilhamento aumente com um **$**.
+Criar uma pasta com nome "Home", porém em nome do compartilhamento aumente com um **$**.
 
 Exemplo: Home$ (O "$" oculta a pasta na rede)
 
