@@ -10,7 +10,7 @@ Pasta base dos usuários e segurança
 
 Criar uma pasta com nome "Home", porém na dentro do compartilhamento aumente com um **$**.
 
-Exemplo: Home$
+Exemplo: Home$ (O "$" oculta a pasta na rede)
 
 ![Pasta Base](Imagens/23-pasta-base.png)
 
