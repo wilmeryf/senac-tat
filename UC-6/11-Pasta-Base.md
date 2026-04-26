@@ -67,4 +67,4 @@ Se buscarmos o caminho da pasta referente ao usuário:
 
 Se buscarmos o caminho da pasta de outro usuário:
 
-![Pasta do usuário negado](Imagens/26-caminho-pasta-negado.pmg)
+![Pasta do usuário negado](Imagens/26-caminho-pasta-negado.png)
