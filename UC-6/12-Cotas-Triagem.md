@@ -2,7 +2,6 @@
 
 > **Data:** 27 e 28 de abril de 2026
 
-
 Gerenciamento de Cotas e Triagem.
 
 ---
