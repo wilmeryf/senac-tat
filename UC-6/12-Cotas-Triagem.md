@@ -68,3 +68,51 @@ Segunda:
 Neste exemplo usamos um usuário do grupo "Compras" que também tem a sua pasta base.
 
 ![Cotas para o usuário](Imagens/28-cotas-usuario.png)
+
+---
+
+## Gerenciamento de Triagem de Arquivos
+
+Controle de tipos de arquivos podem ser salvos no armazenamento.
+
+### Grupo de Arquivos
+
+Caminho:  
+Gerenciamento de Triagem de Arquivos → Grupo de Arquivos
+
+- Possui grupos prontos (ex: Áudio e Vídeo)  
+- Também é possível criar novos grupos  
+
+↳ Define quais tipos de arquivos serão controlados
+
+### Modelos de Triagem de Arquivos
+
+Caminho:  
+Gerenciamento de Triagem de Arquivos → Modelos de Triagem de Arquivos
+
+- Define o tipo de bloqueio  
+- Pode usar modelos prontos ou criar novos (ex: Bloquear Arquivos de Áudio e Vídeo)
+
+### Triagem de Arquivos
+
+Caminho:  
+Gerenciamento de Triagem de Arquivos → Triagem de Arquivos → Criar Triagem de Arquivos
+
+Configuração:
+1. Escolher a pasta (ex: Pública)  
+2. Aplicar o modelo de triagem (ex: Bloqueio de Arquivos de Áudio e Vídeo)
+3. Ok
+
+↳ Define onde o bloqueio será aplicado
+
+### Resultado
+
+![Triagem criada](Imagens/29-triagem.png)
+
+---
+
+## Estação do Usuário - Triagem
+
+Neste exemplo pasta Publica teve tipo de arquivos de áudio e vídeo bloqueados.
+
+![Triagem para o usuário](Imagens/30-triagem-usuario.png)
