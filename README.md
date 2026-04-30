@@ -13,6 +13,6 @@ Aulas do Curso Técnico em Informática do SENAC Tatuapé
 - UC-3: **Planejar e executar a manutenção de computadores**
 - UC-4: Não documentada
 - UC-5: **Planejar e executar a instalação de redes locais de computadores**
-- UC-6: **Planejar e executar a manutenção de redes locais de computadores** ***
+- UC-6: **Planejar e executar a manutenção de redes locais de computadores**
 - UC-7: **Planejar e executar a instalação, a configuração e o monitoramento de sistemas operacionais de redes locais (servidores)** ***
 - UC-8: **Projeto Integrador Assistente de Operações de Redes de Computadores** ***
