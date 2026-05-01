@@ -71,7 +71,7 @@ Passo a passo:
 
 ### Papel de parede
 
-Criar pasta
+- Criar uma pasta (ex: Papel)
 - Nome em Compartilhamento (ex: Papel$)
 - em Segurança deixar os usuários do domínio com Leitura
 
@@ -91,7 +91,7 @@ Comando em estação do usuário:
 
 ### Documentos
 
-Criar uma pasta
+- Criar uma pasta (ex: Documentos)
 - em Compartilhamento, usuários do domínio devem ter Controle Total
 
 Caminho:  
