@@ -25,9 +25,9 @@ Para pesquisar o site padrão da máquina escreva "localhost" ou o IP.
 Para colocar algum arquivo deve-se encontrar a pasta onde é guardado a página web padrão.
 
 Caminho:  
-Explorador de Arquivos > Disco Local (C:) > inetpub > wwwroot
+Explorador de Arquivos → Disco Local (C:) → inetpub → wwwroot
 
-Neste exemplo colocamos um arquivo **index.html** dentro da pasta wwwroot.
+Neste exemplo colocamos um arquivo **index.html** dentro da pasta wwwroot:
 
 ![Pasta padrão dos sites](Imagens/34-caminho-wwwroot.png)
 
