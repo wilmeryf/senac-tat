@@ -90,6 +90,6 @@ Configuração:
 
 ![Configuração do novo site](Imagens/38-configuracao-site.png)
 
-### Estação do Usúario - Segundo site
+### Estação do Usuário - Segundo site
 
 ![Página WEB](Imagens/39-segunda-pagina-web.png)
