@@ -23,7 +23,7 @@ Selecionar todos os usuários → Propriedades → Perfil
 1. Habilitar "Pasta base"  
 2. Marcar "Conectar"  
 3. Letra: Z (recomendado)  
-4. Caminho: \\\SERVIDOR\Home$\%USERNAME% (ex:\\\SRVWILMER\Home$\%username%)
+4. Caminho: \\\SERVIDOR\Home$\%USERNAME% (ex:\\\SRVWILMER\Home$\\%username%)
 
 Resultado:
 - Criou um caminho da pasta base em cada perfil dos usuários
