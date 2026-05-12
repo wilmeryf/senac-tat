@@ -1,12 +1,15 @@
 ![GitHub License](https://img.shields.io/github/license/wilmeryf/senac-tat?style=for-the-badge) -
-![Aulas do Senac](https://img.shields.io/badge/Aulas-Senac-yellow?style=for-the-badge&logo=windows) -
+![SENAC](https://img.shields.io/badge/SENAC-Técnico_em_Informática-FF6600?style=for-the-badge) -
 ![GitHub stars](https://img.shields.io/github/stars/wilmeryf/senac-tat?style=for-the-badge) -
 ![GitHub last commit](https://img.shields.io/github/last-commit/wilmeryf/senac-tat?style=for-the-badge)
 
-# senac-tat
-Aulas do Curso Técnico em Informática do SENAC Tatuapé
+# Senac Tatuapé
+
+Repositório contendo aulas do Curso Técnico em Informática do SENAC Tatuapé.
 
 ---
+
+## Plano de Unidades Curriculares
 
 - UC-1: **Planejar e executar a montagem de computadores / Eletricidade Básica**
 - UC-2: Não documentada
