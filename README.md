@@ -5,7 +5,7 @@
 
 # Senac Tatuapé
 
-Repositório contendo aulas do Curso Técnico em Informática do SENAC Tatuapé.
+Repositório contendo anotações de aulas do Curso Técnico em Informática do SENAC Tatuapé.
 
 ---
 
