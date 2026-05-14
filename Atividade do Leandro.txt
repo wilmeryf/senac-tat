@@ -1,0 +1,80 @@
+Atividade do Leandro
+
+https://www.youtube.com/watch?v=ecKij3K6jYs
+
+PARAMOS EM 9:20
+
+---
+
+Fiz mapeamento de pastas
+Início de programas
+Montei uma impressora fictícia
+mapeamento da impressora fictícia
+
+apagar os scripts feitos do grupos Alunos e Professores
+Talvez apagar a impressora fictícia
+
+Fazer isso via VBS
+para isso assistir o vídeo (link do vídeo acima).
+
+---
+
+SCRIPT VBS ABAIXO:
+
+'Ignora erro no script
+
+On error Resume Next
+Err.clear 0
+
+'Mapeia pastas de acordo com o grupo USR
+
+set objNetwork= CreateObject("WScript.Network")
+strDom = objNetwork.UserDomain
+strUser = objNetwork.UserName
+Set objUser = GetObject("WinNT://" & strDom & "/" & strUser & ",user")
+
+For Each objGroup In objUser.Groups
+
+	Select Case objGroup.Name
+		Case "Alunos"
+			If Not FSODrive.DriveExists("G:") Then
+				objNetwork.MapNetworkDrive "G:", "\\SRVWILMER\Aulas", "true"
+			End If
+			If Not FSODrive.DriveExists("H:") Then
+				objNetwork.MapNetworkDrive "H:", "\\SRVWILMER\Alunos", "true"
+			End If
+			If Not FSODrive.DriveExists("I:") Then
+				objNetwork.MapNetworkDrive "I:", "\\SRVWILMER\Trabalhos", "true"
+			End If
+
+			MsgBox "Bem-vindo ao sistema, Aluno(a)! Bons estudos.", 64, "Logon Alunos"
+
+			objNetwork.AddWindowsPrinterConnection "\\SRVWILMER\HP"
+
+
+		Case "Professores"
+			If Not FSODrive.DriveExists("G:") Then
+				objNetwork.MapNetworkDrive "G:", "\\SRVWILMER\Aulas", "true"
+			End If
+			If Not FSODrive.DriveExists("H:") Then
+				objNetwork.MapNetworkDrive "H:", "\\SRVWILMER\Alunos", "true"
+			End If
+			If Not FSODrive.DriveExists("I:") Then
+				objNetwork.MapNetworkDrive "I:", "\\SRVWILMER\Trabalhos", "true"
+			End If
+			If Not FSODrive.DriveExists("J:") Then
+				objNetwork.MapNetworkDrive "J:", "\\SRVWILMER\Provas", "true"
+			End If
+
+			MsgBox "Bem-vindo(a), Professor(a)! O sistema de aulas está pronto.", 64, "Logon Professores"
+
+			objNetwork.AddWindowsPrinterConnection "\\SRVWILMER\HP"
+
+	End Select
+Next
+
+'Mapeia impressoras e pastas
+Set WshNetwork = Wscript.CreateObject("Wscript.Network")
+
+WshNetwork.MapNetworkDrive "P:","\\SRVWILMER\Publica","true"
+
