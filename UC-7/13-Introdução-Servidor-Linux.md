@@ -39,7 +39,7 @@ Por isso, é muito utilizado em servidores.
 
 ### Configurações da VM
 
-Configurações utilizadas na VM:
+Configurações utilizadas na máquina virtual:
 
 - 2 GB de memória RAM
 - 2 CPUs
@@ -163,13 +163,13 @@ cat cpuinfo
 ```
 ↳ Exibe informações detalhadas da CPU, dentro de `/proc`.
 
-**Dicas**
+**Dicas:**
 - TAB - Completa automaticamente comandos e diretórios
 - ↑ (seta para cima) - Recupera comandos utilizados anteriormente
 
 ---
 
-## Logo Debian
+## 🔴 Logo Debian
 
 Primeiro, será instalado o pacote `linuxlogo` para testar a conexão com a internet. 
 
@@ -192,3 +192,16 @@ O símbolo ">" redireciona a saída de um arquivo para outro, ao final saia da s
 ### Resultado
 
 ![Logo Debian no terminal](Imagens/03-logo-debian.png)
+
+---
+
+## Referência de estudo
+
+Material complementar utilizado durante as aulas:
+
+**Curso Linux Server**
+
+Link: https://linuxtutorial.com.br  
+— Professor José de Assis  
+
+O curso direciona para a playlist de aulas do professor.
