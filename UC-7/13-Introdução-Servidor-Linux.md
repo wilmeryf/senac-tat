@@ -198,10 +198,9 @@ O símbolo ">" redireciona a saída de um arquivo para outro, ao final saia da s
 ## Referência de estudo
 
 Material complementar utilizado durante as aulas:
+  
+Link: **https://linuxtutorial.com.br**
 
-**Curso Linux Server**
+Busque por "**Curso Linux Server**".
 
-Link: https://linuxtutorial.com.br  
-— Professor José de Assis  
-
-O curso direciona para a playlist de aulas do professor.
+O curso direciona para a playlist de aulas do professor José de Assis.
