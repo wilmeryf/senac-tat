@@ -189,7 +189,7 @@ table ip nat {
 ![Verificação das regras do firewall](Imagens/07-regras-firewall.png)
 
 15. Vá ao Windows Server
-16. Realize o teste de um ping NAT, (ex: ping 8.8.8.8)
+16. Realize o teste de um ping NAT (ex: ping 8.8.8.8)
 
 ![Teste ping de um NAT](Imagens/08-ping-nat.png)
 
