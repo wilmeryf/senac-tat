@@ -239,6 +239,6 @@ cache-size=1000
 15. Ok
 16. Confira se o servidor e as estações tem internet
 
-![Estação com internet](Imagens/09-estação-internet.png)
+![Estação com internet](Imagens/09-estacao-internet.png)
 
 **OBS:** o Debian está fornecendo internet para as estações do Windows Server.
