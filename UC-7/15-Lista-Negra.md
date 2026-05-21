@@ -62,4 +62,4 @@ conf-file=/etc/dnsmasq.d/blacklist.conf
 
 Neste exemplo, foi realizado uma tentativa de entrar em um dos sites bloqueados:
 
-![Estação com Black List](Imagens/10-estacao-blacklist-dns)
+![Estação com Black List](Imagens/10-estacao-blacklist-dns.png)
