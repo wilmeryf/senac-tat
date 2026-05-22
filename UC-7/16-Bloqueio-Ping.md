@@ -63,6 +63,6 @@ nft -f /etc/nftables.conf
 
 7. Realize o teste do ping
 
-![Teste ping do Gateway](Imagens/12-ping-gateway-bloqueado.png)
+![Teste ping do Gateway](Imagens/13-ping-gateway-bloqueado.png)
 
 **OBS:** regra do firewall efetuada apenas para demonstração.
