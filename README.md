@@ -11,7 +11,7 @@ Repositório contendo anotações de aulas do Curso Técnico em Informática do 
 
 ## Plano de Unidades Curriculares
 
-- UC-1: **Planejar e executar a montagem de computadores / Eletricidade Básica**
+- UC-1: **Eletricidade Básica**
 - UC-2: Não documentada
 - UC-3: **Planejar e executar a manutenção de computadores**
 - UC-4: Não documentada
