@@ -86,7 +86,7 @@ Outros comandos:
 
 **SSH:** permite acessar o servidor remotamente.
 
-9. Logo, reinicie o servidor
+9. Logo, reinicie o serviço
 10. Confira se as interfaces de rede estão ligadas
 
 ![Interfaces de rede](Imagens/04-rede-ligada.png)
