@@ -19,7 +19,7 @@ Abrimos um navegador do Windows Server, pesquisamos pelo programa e efetuamos o 
 
 Link: **https://putty.org/index.html**
 
-Para entrar no putty, deve-se colocar o gateway, logo para logar entre como usuário e depois como root:
+Para entrar no putty, deve-se colocar o IP do servidor, logo para logar entre como usuário e depois como root:
 
 ```
 su
