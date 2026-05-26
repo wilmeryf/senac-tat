@@ -106,6 +106,8 @@ Confira o IP da interface de rede do servidor criado:
 
 ![Interface de rede](Imagens/19-interface-rede-bridge.png)
 
-Logo, realize o teste do desse IP na máquina real:
+### Máquina Real
+
+Realize o teste do IP do Debian:
 
 ![Teste ping do Debian](Imagens/20-ping-debian.png)
