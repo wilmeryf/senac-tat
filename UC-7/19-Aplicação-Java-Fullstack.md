@@ -128,7 +128,7 @@ Aparecerá na aba Applications e pesquisando por `IPDOSERVIDOR:8080/Hello`, esta
 
 ## MySQL
 
-No navegador pesquise por **mysql.com**, na aba Downloads entre em MySQL Community Edition (gratuito), logo em MySQL APT Repository.
+No navegador pesquise por **mysql.com**, na aba Downloads entre em **MySQL Community Edition** (gratuito), logo em **MySQL APT Repository.**
 
 Dê um botão direito em "No thanks, just start my donwload", e pegue o endereço de link para instalação no Debian.
 
@@ -183,3 +183,7 @@ MySQL Community Edition → MySQL Workbench
 **Nome da conexão:** Debian  
 **Hostname:** IP do servidor (Debian)  
 **Usuário:** dba (foi o que criamos)  
+
+4. Dê ok para criar a conexão
+5. Será exibida uma janela de autenticação
+6. Para acessar a conexão, é necessário inserir a senha do usuário criado anteriormente.
