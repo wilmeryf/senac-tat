@@ -100,7 +100,7 @@ Após a ativação do usuário administrador, acesse o painel de gerenciamento u
 
 ---
 
-## Software EclipseIDE
+## Software Eclipse IDE
 
 ### Caminhos
 
