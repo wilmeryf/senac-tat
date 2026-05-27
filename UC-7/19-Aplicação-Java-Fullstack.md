@@ -89,7 +89,7 @@ tomcat-users.xml
 <user username="admin" password="123@senac" roles="manager-gui, admin-gui">
 ```
 
-![Ativação do admin Tomcat](Imagens/23-ativacao-admin.png)
+![Ativação do admin Tomcat](Imagens/23-ativacao-admin-tomcat.png)
 
 6. Reinicie o serviço com `systemctl restart tomcat11`
 7. Confira os status desse serviço
