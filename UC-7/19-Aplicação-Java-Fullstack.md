@@ -46,7 +46,7 @@ Na máquina real, realize o teste do IP do Debian:
 Para a instalar o java, primeiro dê `apt update` para atualizar a lista de pacotes disponíveis, logo:
 
 ```
-apt install default jdk
+apt install default-jdk
 ```
 
 ![Versão do Java](Imagens/21-java-versao.png)
