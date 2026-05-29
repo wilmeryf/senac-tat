@@ -1,6 +1,6 @@
 # Publicação de Aplicação Java Web
 
-> **Data:** 27 de maio de 2026
+> **Data:** 27 e 28 de maio de 2026
 
 Importação, configuração e publicação de uma aplicação Java Web integrada ao MySQL utilizando Apache Tomcat.
 
@@ -66,4 +66,20 @@ Após isso, clique em “Start Import” para iniciar o restore do banco de dado
 
 No Tomcat faça o deploy do arquivo "agenda.war". Pesquisando pelo `IPDOSERVIDOR:8080/agenda` estará a interface web da publicação.
 
-### Em construção...
+---
+
+## Nota
+
+Durante a continuação da aula, ocorreram problemas no processo, impossibilitando a demonstração completa do funcionamento da aplicação.
+
+Mesmo assim, o professor apresentou parte do procedimento utilizando outro projeto, demonstrando etapas relacionadas ao deploy da aplicação e manipulação do banco de dados no MySQL Workbench.
+
+1. Em Eclipse IDE fechou o projeto "agenda" e importou um "agenda.contato"
+2. No arquivo DAO.java, realizou a alteração do IP, usuário e senha
+3. Exportou como "agenda.contato.war"
+4. Realizou o deploy do arquivo no Apache Tomcat
+5. Acessou o MySQL Workbench
+6. No painel Query 1, adicionou o comando: `select * from contato;`
+7. Em "Data Export", exportou um dump do banco de dados
+
+Após isso, demonstrou a integração dos dados entre a aplicação web, o Apache Tomcat, o MySQL Workbench e o servidor Debian.
