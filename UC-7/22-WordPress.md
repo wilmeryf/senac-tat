@@ -156,7 +156,7 @@ Configurar o site e criar usuário administrador.
 
 Após a conclusão da instalação do WordPress, realizar a autenticação para o painel administrativo.
 
-![Painel administrativo do WordPress](Imagens/35-acesso-painel-wordpress.png)
+![Painel administrativo do WordPress](Imagens/36-acesso-painel-wordpress.png)
 
 O acesso também pode ser realizado posteriormente através do endereço: `IPDOSERVIDOR/wp-admin`
 
