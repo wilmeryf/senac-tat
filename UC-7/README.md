@@ -1,6 +1,6 @@
 # UC-7
 
-Este diretório reúne todas as atividades práticas realizadas na UC-7, com foco em servidores windows e linux.
+Este diretório reúne todas as atividades práticas realizadas na UC-7, com foco em servidores Windows e Linux.
 
 ## Conteúdo
 
