@@ -13,4 +13,4 @@ Este diretório reúne todas as atividades práticas realizadas na UC-5, com foc
 
 ---
 
-Atividades realizadas no fim de fevereiro e grande parte de março de 2026 como parte das aulas práticas da UC-5.
+Atividades realizadas entre o fim de fevereiro e grande parte de março de 2026 como parte das aulas práticas da UC-5.
