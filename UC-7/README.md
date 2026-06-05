@@ -4,7 +4,7 @@ Este diretório reúne todas as atividades práticas realizadas na UC-7, com foc
 
 ## Conteúdo
 
-- Domínio
+- AD DS
 - Servidor DHCP
 - Compartilhamento avançado
 - Políticas de usuários
