@@ -2,7 +2,7 @@
 
 > **Data:** 25 de maio de 2026
 
-Instalação da ferramenta e criação de uma nova VM.
+Instalação da ferramenta de monitoramento com interface gráfica.
 
 ---
 
