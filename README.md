@@ -14,9 +14,9 @@ Repositório contendo anotações de aulas do Curso Técnico em Informática do 
 - UC-1: **Eletricidade Básica**
 - UC-2: Não documentada
 - UC-3: **Planejar e executar a manutenção de computadores**
-- UC-4: Não documentada
+- UC-4: [**Projeto Integrador: Assistente de Suporte e Manutenção de Computadores**](https://github.com/wilmeryf/montagem-microcomputadores)
 - UC-5: **Planejar e executar a instalação de redes locais de computadores**
 - UC-6: **Planejar e executar a manutenção de redes locais de computadores**
 - UC-7: **Planejar e executar a instalação, a configuração e o monitoramento de sistemas operacionais de redes locais (servidores)**
-- UC-8: **Projeto Integrador Assistente de Operações de Redes de Computadores**
+- UC-8: [**Projeto Integrador: Assistente de Operações de Redes de Computadores**](https://github.com/wilmeryf/infraestrutura-corporativa)
 - UC-9: **Desenvolvendo algoritmos**
