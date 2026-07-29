@@ -99,8 +99,8 @@ Var
 
 
 Inicio
-    EscrevaL(Senac Tatuapé)
-    msg <- ("Seja bem vindo(a)")
+    EscrevaL("Senac Tatuapé")
+    msg <- "Seja bem vindo(a) "
     EscrevaL(msg)
     EscrevaL("")
     Escreva("Qual seu nome: ")
