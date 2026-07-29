@@ -1,6 +1,6 @@
 # Introdução à Lógica e Programação
 
-> **Data** 28, 29 e 30 de julho de 2026
+> **Data** 27, 28 e 29 de julho de 2026
 
 Visão inicial sobre lógica e início na programação.
 
