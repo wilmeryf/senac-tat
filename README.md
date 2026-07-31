@@ -19,4 +19,5 @@ Repositório contendo anotações de aulas do Curso Técnico em Informática do 
 - UC-6: **Planejar e executar a manutenção de redes locais de computadores**
 - UC-7: **Planejar e executar a instalação, a configuração e o monitoramento de sistemas operacionais de redes locais (servidores)**
 - UC-8: [**Projeto Integrador: Assistente de Operações de Redes de Computadores**](https://github.com/wilmeryf/infraestrutura-corporativa)
-- UC-9: **Desenvolvendo algoritmos**
+- UC-9: **Desenvolver Algoritmos**
+- UC-10: **Desenvolver Banco de Dados**
