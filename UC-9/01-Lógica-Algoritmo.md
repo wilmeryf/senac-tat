@@ -245,3 +245,74 @@ Inicio
 
 Fimalgoritmo
 ```
+
+---
+
+## Operadores Condicionais
+
+### Operadores Relacionais
+
+Eles comparam dois valores. O resultado é sempre verdadeiro ou falso.
+
+Igual a (`=`)  
+Diferente de (`<>` ou `!=`)  
+Maior que (`>`)  
+Menor que (`<`)  
+Maior ou igual a (`>=`)  
+Menor ou igual a (`<=`)
+
+```
+Algoritmo "Operadores Relacionais"
+
+
+Var
+   a, b, c: inteiro
+
+
+Inicio
+      a <- 2
+      b <- 3
+      c <- 5
+
+      EscrevaL(a=b)      //F
+      EscrevaL(a>b)      //F
+      EscrevaL(a<c)      //V
+      EscrevaL(c=a+b)    //V
+      Escreva(b<>c)      //V
+      
+
+Fimalgoritmo
+```
+
+### Operadores Lógicos
+
+Eles unem ou invertem expressões lógicas. O resultado também é verdadeiro ou falso.
+
+`E` → todas as condições precisam ser verdadeiras  
+`OU` → apenas uma condição para ser verdadeiro
+
+```
+Algoritmo "Triângulo"
+// Triângulo
+
+
+Var
+   L1, L2, L3: real
+   triangulo: logico
+
+
+Inicio
+      Escreva("Digite o primeiro lado do triângulo: ")
+      Leia(L1)
+      Escreva("Digite o segundo lado do triângulo: ")
+      Leia(L2)
+      Escreva("Digite o terceiro lado do triângulo: ")
+      Leia(L3)
+      
+      triangulo <- (L1<L2+L3) E (L2<L1+L3) E (L3<L1+L2)
+      
+      Escreva("É um triângulo:",triangulo)
+
+
+Fimalgoritmo
+```
