@@ -1,6 +1,6 @@
 # Estrutura de Condição
 
-> **Data:** 31 de julho de 2026
+> **Data:** 31 de julho e 03 de agosto de 2026
 
 Sobre e atividades de condição simples e composta com VisualG.
 
@@ -261,6 +261,133 @@ Inicio
                 EscrevaL("Fica em casa!")
            FIMSE
       FIMSE
+
+
+Fimalgoritmo
+```
+
+### Salário Corrigido
+```
+Algoritmo "SALÁRIO CORRIGIDO"
+// Incluia NOME e o SALÁRIO de um funcionário. Verifique se
+// o salário é menor ou igual a R$ 1.000,00. Caso seja, dê um
+// aumento de R$ 200,00, senão apenas R$ 50,00.
+// Imprima o NOME e o SALÁRIO CORRIGIDO.
+
+
+Var
+   nome: caractere
+   salario, salario_corrigido: real
+
+
+Inicio
+      Escreva("Qual o seu nome: ")
+      Leia(nome)
+      Escreva("Qual o salário: ")
+      Leia(salario)
+      EscrevaL("")
+      
+      SE salario <= 1000 entao
+         salario_corrigido <- salario + 200
+         
+         SENAO
+              salario_corrigido <- salario + 50
+      FIMSE
+      
+      EscrevaL("Olá, ",nome)
+      Escreva("Seu novo salário é R$ ",salario_corrigido:5:2)
+
+
+Fimalgoritmo
+```
+
+### Divisão com zero
+```
+Algoritmo "Divisão com zero"
+// Faça um programa que receba dois números inteiros, calcule e
+// imprima a divisão do primeiro pelo segundo número
+// e mostre o erro se colocar o 0.
+
+
+Var
+   n1, n2: inteiro
+   divisao: real
+
+
+Inicio
+      Escreva("Digite o primeiro número: ")
+      Leia(n1)
+      Escreva("Digite o segundo número: ")
+      Leia(n2)
+      EscrevaL("")
+      
+      SE n2 <> 0 entao
+         divisao <- n1 / n2
+         Escreva("A divisão do primeiro pelo segundo número é",divisao)
+         SENAO
+              Escreva("Não é possível fazer!")
+      FIMSE
+
+
+Fimalgoritmo
+```
+
+### Índice de Massa Corporal (Condicional Composta Aninhada)
+```
+Algoritmo "IMC"
+// Solicitar o peso e a altura do usuário e calcular
+// o seu Índice de Massa Corporal (IMC)
+// Abaixo do 17 = Muito abaixo do peso
+// Entre 17 e 18,5 = Abaixo do peso
+// De 18,5 a 25 = Peso ideal
+// De 25 a 30 = Sobrepeso
+// De 30 a 35 = Obesidade
+// De 35 a 40 = Obesidade severa
+// 40 ou mais = Obesidade mórbida
+
+
+Var
+   peso, altura, imc: real
+
+
+Inicio
+      Escreva("Digite o seu peso: ")
+      Leia(peso)
+      Escreva("Digite a sua altura: ")
+      Leia(altura)
+
+      EscrevaL("")
+
+      imc <-  peso / (altura * altura)
+
+      SE imc < 17 entao
+         EscrevaL("Muito abaixo do peso")
+         SENAO
+              SE (17 <= imc) E (imc < 18.5) entao
+                 EscrevaL("Abaixo do peso")
+                 SENAO
+                      SE (18.5 <= imc) E (imc < 25) entao
+                         EscrevaL("Peso ideal")
+                         SENAO
+                              SE (25 <= imc) E (imc < 30) entao
+                                 EscrevaL("Sobrepeso")
+                                 SENAO
+                                      SE (30 <= imc) E (imc < 35) entao
+                                         EscrevaL("Obesidade")
+                                         SENAO
+                                              SE (35 <= imc) E (imc < 40) entao
+                                                 EscrevaL("Obesidade severa")
+                                                 SENAO
+                                                      EscrevaL("Obesidade mórbida")
+                                              FIMSE
+                                      FIMSE
+                              FIMSE
+                      FIMSE
+              FIMSE
+      FIMSE
+
+
+      EscrevaL("Seu IMC atual é: ",imc:5:2)
 
 
 Fimalgoritmo
