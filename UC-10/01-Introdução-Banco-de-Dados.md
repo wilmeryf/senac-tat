@@ -1,6 +1,6 @@
 # Introdução ao Banco de Dados
 
-> **Data:** 04 de agosto de 2026
+> **Data:** 04 e 05 de agosto de 2026
 
 Banco de Dados podem ser vistos em diversos lugares.
 
@@ -32,24 +32,24 @@ Durante a aula, foi utilizado para executar comandos SQL, criar bancos de dados,
 
 Comando básicos que foram usado no MySQL Workbench:
 
-```
+```sql
 SHOW DATABASES;
 ```
 ↳ Exibe todos os bancos de dados existentes no servidor.
 
-```
+```sql
 CREATE DATABASE pizzaria;
 ```
 ↳ Cria um novo banco de dados.
 
-```
+```sql
 USE pizzaria;
 ```
 ↳ Define qual banco será utilizado.
 
 Atalho: `CTRL + ENTER` → executa apenas o comando onde o cursor está posicionado.
 
-```
+```sql
 CREATE TABLE clientes (
   id INT AUTO_INCREMENT PRIMARY KEY,
   nome VARCHAR(100),
@@ -64,31 +64,30 @@ CREATE TABLE clientes (
 ↳ `PRIMARY KEY` → chave primária da tabela.  
 ↳ `VARCHAR` → campo de texto com tamanho definido.  
 
-```
+```sql
 SHOW TABLES;
 ```
 ↳ Mostra todas as tabelas existentes no banco selecionado.
 
-```
+```sql
 DESCRIBE clientes;
 ```
 ↳ Exibe a estrutura da tabela.
 
-```
+```sql
 INSERT INTO clientes (nome, telefone, endereco)
 VALUES
-('Maria', '11999999998', 'Rua B'),
-('Pedro', '11999999997', 'Rua C'),
-('Carlos', '11999999996', 'Rua D');
+('João', '11999999999', 'Rua A'),
+('Maria', '11888888888', 'Rua B');
 ```
 ↳ Para adicionar registros no banco.
 
-```
+```sql
 SELECT*FROM clientes;
 ```
 ↳ Exibe todos os registros armazenados na tabela.
 
-```
+```sql
 CREATE TABLE pizzas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     sabor VARCHAR(100),
@@ -97,3 +96,11 @@ CREATE TABLE pizzas (
 );
 ```
 ↳ `DECIMAL(10,2)` → utilizado para armazenar valores monetários com duas casas decimais.
+
+```sql
+DROP DATABASE IF EXISTS pizzaria;
+```
+↳ `DROP DATABASE` → exclui um banco de dados.  
+↳ `IF EXISTS` → verifica se o banco existe antes de tentar excluí-lo, evitando uma mensagem de erro caso ele não seja encontrado.
+
+No MySQL, esse comando não possui `CTRL + Z`. Após sua execução, os dados são perdidos, a menos que exista um backup previamente realizado.
