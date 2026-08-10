@@ -1,6 +1,6 @@
 /*
 DATA: 04, 05, 06 e 07 de agosto de 2026
-Este código está relcionado com "01-Introdução-Banco-de-Dados.md"
+Este código está relacionado com "01-Introdução-Banco-de-Dados.md"
 MySQL Workbench
 */
 
