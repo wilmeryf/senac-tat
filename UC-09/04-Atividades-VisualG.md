@@ -174,6 +174,5 @@ Inicio
       FIMSE
               
 
-
 Fimalgoritmo
 ```
