@@ -131,10 +131,10 @@ ADD CONSTRAINT fk_cliente
 FOREIGN KEY (id_cliente)
 REFERENCES clientes(id);
 ```
-`ALTER TABLE pedidos` → altera a tabela pedidos.  
-`ADD CONSTRAINT fk_cliente` → adiciona uma regra chamada fk_cliente.  
-`FOREIGN KEY (id_cliente)` → define id_cliente como chave estrangeira.  
-`REFERENCES clientes(id)` → estabelece que id_cliente faz referência ao id da tabela clientes.
+↳ `ALTER TABLE pedidos` → altera a tabela pedidos.  
+↳ `ADD CONSTRAINT fk_cliente` → adiciona uma regra chamada fk_cliente.  
+↳ `FOREIGN KEY (id_cliente)` → define id_cliente como chave estrangeira.  
+↳ `REFERENCES clientes(id)` → estabelece que id_cliente faz referência ao id da tabela clientes.
 
 Dessa forma, um pedido pode ser associado a um cliente existente.
 
