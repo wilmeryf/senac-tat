@@ -1,6 +1,6 @@
 /*
-DATA: 04, 05, 06 e 07 de agosto de 2026
-Este código está relacionado com "01-Introdução-Banco-de-Dados.md"
+DATA: 04, 05, 06, 07 e 11 de agosto de 2026
+Este código está relacionado com "01-Introdução-Banco-de-Dados.md" e "02-Consultando-filtrando"
 MySQL Workbench
 */
 
@@ -34,9 +34,11 @@ select*from clientes;
 CREATE TABLE pizzas (
 	id INT AUTO_INCREMENT PRIMARY KEY,
 	sabor VARCHAR(100),
-	tamanho VARCHAR(20),
-	preco DECIMAL(10,2)
+    tamanho VARCHAR(20),
+    preco DECIMAL(10,2)
 );
+
+show tables;
 
 DESCRIBE pizzas;
 
@@ -62,11 +64,13 @@ select*from pizzas;
 
 CREATE TABLE pedidos (
 	id INT AUTO_INCREMENT PRIMARY KEY,
-	sabor VARCHAR(100),
-	tamanho VARCHAR(100),
-	preco DECIMAL(10,2),
-	data_pedido DATETIME
+    sabor VARCHAR(100),
+    tamanho VARCHAR(100),
+    preco DECIMAL(10,2),
+    data_pedido DATETIME
 );
+
+show tables;
 
 DESCRIBE pedidos;
 
@@ -98,10 +102,33 @@ select*from clientes WHERE id = 1;
 
 SELECT
 	clientes.nome,
-	clientes.endereco,
-	clientes.telefone,
-	pedidos.sabor,
-	pedidos.preco
+    clientes.endereco,
+    clientes.telefone,
+    pedidos.sabor,
+    pedidos.preco
 FROM pedidos
 INNER JOIN clientes
 ON pedidos.id_cliente = clientes.id;
+
+select*from pedidos
+WHERE preco > 50;
+
+select*from pedidos
+where preco < 50;
+
+select*from pizzas
+order by sabor asc;
+
+select*from pedidos
+where preco < 50
+order by preco asc;
+
+select 
+	pedidos.id,
+    clientes.nome,
+    pedidos.preco
+from pedidos
+inner join clientes
+on pedidos.id_cliente = clientes.id
+where pedidos.preco < 50
+order by pedidos.preco desc;
