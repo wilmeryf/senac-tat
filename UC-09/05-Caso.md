@@ -1,6 +1,6 @@
 # Estrutura Múltipla Escolha - Caso
 
-> **Data:** 12 de agosto de 2026
+> **Data:** 12 e 14 de agosto de 2026
 
 Uma nova estrutura a ser utilizada.
 
@@ -111,6 +111,95 @@ Inicio
       
       EscrevaL()
       EscrevaL("Caro ",funcionario,", o seu salário com o reajuste é R$",reajuste)
+
+
+Fimalgoritmo
+```
+
+### Calculadora
+```
+Algoritmo "Calculadora"
+// Faça um algortimo que leia dois números e uma opção:
+//
+// 1 > Somar
+// 2 > Subtrair
+// 3 > Multiplicar
+// 4 > Dividir
+//
+// Utilize CASO para realizar a operação escolhida e mostrar o
+// resultado.
+
+
+Var
+   num1, num2, resultado: real
+   acao: inteiro
+
+
+Inicio
+      Escreva("Digite um número: ")
+      Leia(num1)
+      Escreva("Digite outro número: ")
+      Leia(num2)
+      
+      EscrevaL()
+      EscrevaL("Voce quer:")
+      EscrevaL("[1] Somar")
+      EscrevaL("[2] Subtrair")
+      EscrevaL("[3] Multiplicar")
+      EscrevaL("[4] Dividir")
+      Leia(acao)
+      
+      ESCOLHA acao
+              CASO 1
+                   resultado <- num1 + num2
+              CASO 2
+                   resultado <- num1 - num2
+              CASO 3
+                   resultado <- num1 * num2
+              CASO 4
+                   resultado <- num1 / num2
+      FIMESCOLHA
+      
+      EscrevaL()
+      EscrevaL("O resultado dessa operação foi",resultado)
+
+
+Fimalgoritmo
+```
+
+### Classificação de notas
+```
+Algoritmo "Classificação de notas"
+// Faça um algortimo que leia uma nota de 0 a 10 e utilize CASO
+// para classificar o estudante:
+//
+// 0 a 4 > "Reprovado"
+// 5 a 6 > "Recuperação"
+// 7 a 8 > "Aprovado"
+// 9 a 10 > "Aprovado com destaque"
+
+
+Var
+   nota: inteiro
+
+
+Inicio
+      Escreva("Qual a nota: ")
+      Leia(nota)
+      EscrevaL()
+      
+      ESCOLHA nota
+              CASO 0, 1, 2, 3, 4
+                   EscrevaL("Reprovado")
+              CASO 5, 6
+                   EscrevaL("Recuperação")
+              CASO 7, 8
+                   EscrevaL("Aprovado")
+              CASO 9, 10
+                   EscrevaL("Aprovado com destaque")
+              OUTROCASO
+                       EscrevaL("Valor mal inserido.")
+      FIMESCOLHA
 
 
 Fimalgoritmo
