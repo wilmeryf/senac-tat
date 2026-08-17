@@ -1,0 +1,136 @@
+# Estrutura de Repetição Enquanto
+
+> **Data:** 14 e 17 de agosto de 2026
+
+Loop de uma condição.
+
+---
+
+## Enquanto
+
+Essa estrutura permite repetir um conjunto de comandos enquanto uma determinada condição for verdadeira. A repetição é controlada por uma condição.
+
+---
+
+## Atividades feitas no VisualG
+
+### Contagem de 0 a 10
+```
+Algoritmo "ENQUANTO 0 A 10"
+// Escreva um algoritmo que conte de 0 até 10:
+// usando a estrutura de repetição ENQUANTO
+
+
+Var
+   cont: inteiro
+
+
+Inicio
+      cont <- 0
+
+      ENQUANTO cont <= 10 FACA
+      
+      EscrevaL(cont)
+      cont <- cont + 1
+      
+      FIMENQUANTO
+      
+      EscrevaL()
+      EscrevaL("Fim da contagem!")
+
+
+Fimalgoritmo
+```
+
+### Contagem de 20 a 0
+```
+Algoritmo "ENQUANTO 20 A 0"
+// Escreva um algoritmo que conte de 20 até 0:
+// usando a estrutura de repetição ENQUANTO
+
+
+Var
+   cont: inteiro
+
+
+Inicio
+      cont <- 20
+
+      ENQUANTO cont >= 0 FACA
+
+      EscrevaL(cont)
+      cont <- cont - 2
+
+      FIMENQUANTO
+
+      EscrevaL()
+      EscrevaL("Fim da contagem!")
+
+
+Fimalgoritmo
+```
+
+### Usuário pede
+```
+Algoritmo "ENQUANTO USUÁRIO"
+// Escreva um algoritmo que conte até que o usuário mande parar:
+// usando a estrutura de repetição ENQUANTO
+
+
+Var
+   cont, valor: inteiro
+
+
+Inicio
+      Escreva("Contar até: ")
+      Leia(valor)
+
+      cont <- 1
+
+      ENQUANTO cont <= valor FACA
+
+      EscrevaL(cont)
+      cont <- cont + 1
+
+      FIMENQUANTO
+
+      EscrevaL()
+      EscrevaL("Fim da contagem!")
+
+
+Fimalgoritmo
+```
+
+### Tabuada
+```
+Algoritmo "Tabuada"
+// Faça um algoritmo que faça o seguinte:
+// O usuário digita um número
+// O algoritmo calcula a tabuada deste número e imprime na tela
+
+
+Var
+   numero, cont, resultado: inteiro
+
+
+Inicio
+      cont <- 1
+
+      Escreva("Digite um número: ")
+      Leia(numero)
+      EscrevaL()
+      
+      EscrevaL("A tabuada do",numero," é...")
+      EscrevaL()
+      
+      ENQUANTO cont <= 10 FACA
+      resultado <- numero * cont
+
+      EscrevaL(numero," x",cont," =",resultado)
+
+      cont <- cont + 1
+      FIMENQUANTO
+
+
+Fimalgoritmo
+```
