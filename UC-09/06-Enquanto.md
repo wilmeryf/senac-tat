@@ -134,3 +134,42 @@ Inicio
 
 Fimalgoritmo
 ```
+
+### Soma e Maior
+```
+Algoritmo "Soma e Maior"
+// Escreva um algoritmo que ler 5 números.
+// Imprimir a soma e qual o maior número digitado.
+
+
+
+Var
+   numero, cont, soma, maior: inteiro
+
+
+Inicio
+      cont <- 1
+      soma <- 0
+
+      ENQUANTO cont <= 5 FACA
+
+      Escreva("Digite um número: ")
+      Leia(numero)
+
+      soma <- soma + numero
+
+      SE (cont = 1) OU (numero > maior) ENTAO
+         maior <- numero
+      FIMSE
+      
+      cont <- cont + 1
+
+      FIMENQUANTO
+
+      EscrevaL()
+      EscrevaL("A soma dos valores é",soma)
+      EscrevaL("O maior valor entre eles é",maior)
+
+
+Fimalgoritmo
+```
