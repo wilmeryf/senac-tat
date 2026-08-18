@@ -173,3 +173,59 @@ Inicio
 
 Fimalgoritmo
 ```
+
+### Soma, quantidade e média de números
+```
+Algoritmo "Soma, quantidade e média de números"
+// Soma de números até o usuário parar
+//
+// Faça um algoritmo que permita ao usuário digitar vários números.
+//
+// Depois de cada número, pergunte:
+// Deseja continuar?
+// 1 – Sim
+// 2 – Não
+//
+// Enquanto o usuário escolher 1, o programa deverá continuar solicitando números.
+//
+// Quando escolher 2, o programa deverá parar e informar:
+// a soma de todos os números digitados;
+// a quantidade de números digitados;
+// a média dos números digitados.
+
+
+Var
+   numero, opcao, soma, quantidade: inteiro
+   media: real
+
+
+Inicio
+      cont <- 1
+      soma <- 0
+      opcao <- 1
+
+      ENQUANTO opcao = 1 FACA
+      
+      Escreva("Digite um número: ")
+      Leia(numero)
+      EscrevaL()
+      
+      soma <- soma + numero
+      quantidade <- quantidade + 1
+      media <- soma / quantidade
+      
+      EscrevaL("Deseja continuar?")
+      EscrevaL("[1] SIM")
+      EscrevaL("[2] NÃO")
+      Leia(opcao)
+      LimpaTela
+      
+      FIMENQUANTO
+      
+      EscrevaL("A soma de todos os números apresentados é",soma)
+      EscrevaL("A quantidade de números apresentados é",quantidade)
+      EscrevaL("A média dos números é",media)
+      
+      
+Fimalgoritmo
+```
