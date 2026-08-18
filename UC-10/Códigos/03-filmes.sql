@@ -36,11 +36,11 @@ show create table filmes;
 
 insert into filmes (id_genero, titulo, duracao)
 values
-('1', 'John Wick', '101'),
-('1', 'Mad Max', '120'),
-('2', 'Superbad: É Hoje', '113'),
-('3', 'Invocação do Mal', '112'),
-('3', 'O Hereditário', '127');
+(1, 'John Wick', 101),
+(1, 'Mad Max', 120),
+(2, 'Superbad: É Hoje', 113),
+(3, 'Invocação do Mal', 112),
+(3, 'O Hereditário', 127);
 
 select*from filmes;
 select*from generos;
