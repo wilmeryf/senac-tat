@@ -1,6 +1,6 @@
 # Atividades feitas no VisualG
 
-> **Data:** 10 de julho de 2026
+> **Data:** 10 de agosto de 2026
 
 Mais atividades no VisualG, agora mais voltado para a estrutura de condição.
 
