@@ -1,4 +1,4 @@
-# Estrutura de Repetição Enquanto
+# Estrutura de Repetição - Enquanto
 
 > **Data:** 14 e 17 de agosto de 2026
 
