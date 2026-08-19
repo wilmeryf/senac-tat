@@ -200,7 +200,6 @@ Var
 
 
 Inicio
-      cont <- 1
       soma <- 0
       opcao <- 1
 
