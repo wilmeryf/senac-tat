@@ -1,6 +1,6 @@
 /*
 DATA: 04, 05, 06, 07 e 11 de agosto de 2026
-Este código está relacionado com "01-Introdução-Banco-de-Dados.md" e "02-Consultando-filtrando"
+Este código está relacionado com "01-Introdução-Banco-de-Dados.md", "02-Consultando-filtrando" e "03-Relacionando-tabelas.md"
 MySQL Workbench
 */
 
@@ -132,3 +132,32 @@ inner join clientes
 on pedidos.id_cliente = clientes.id
 where pedidos.preco < 50
 order by pedidos.preco desc;
+
+alter table pedidos
+add column id_pizza int;
+
+ALTER TABLE pedidos
+ADD CONSTRAINT fk_pizza
+FOREIGN KEY (id_pizza)
+REFERENCES pizzas(id);
+
+drop table if exists professores;
+drop table if exists cursos;
+drop table if exists alunos;
+
+select
+	pedidos.id,
+	clientes.nome,
+    pizzas.sabor,
+    pedidos.preco
+from pedidos
+inner join clientes
+on pedidos.id_cliente = clientes.id
+inner join pizzas
+on pedidos.id_pizza = pizzas.id;
+
+INSERT INTO pedidos(id_pizza, id_cliente, sabor, tamanho, preco, data_pedido)
+VALUES
+(1, 1, 'Calabresa', 'Broto', '30', now());
+
+select*from pedidos;
