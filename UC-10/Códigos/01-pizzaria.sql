@@ -1,5 +1,5 @@
 /*
-DATA: 04, 05, 06, 07 e 11 de agosto de 2026
+DATA: 04, 05, 06, 07, 11 e 18 de agosto de 2026
 Este código está relacionado com "01-Introdução-Banco-de-Dados.md", "02-Consultando-filtrando" e "03-Relacionando-tabelas.md"
 MySQL Workbench
 */
