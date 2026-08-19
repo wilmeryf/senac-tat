@@ -67,6 +67,8 @@ Para visualizar os pedidos cadastrados: `SELECT * FROM pedidos;`.
 
 O MySQL Workbench também permite visualizar graficamente a estrutura e os relacionamentos entre as tabelas por meio de um diagrama.
 
+![Diagrama do banco pizzaria](Imagens/02-diagrama-pizzaria.png)
+
 O diagrama ajuda a visualizar as relações entre: 
 - `clientes`
 - `pedidos`
@@ -76,5 +78,3 @@ A tabela pedidos possui chaves estrangeiras que estabelecem seus relacionamentos
 
 Caminho:  
 Database → Reverse Engineer → conexão local → Next → selecionar `pizzaria` → Next → Execute → Finish
-
-![Diagrama do banco pizzaria](Imagens/02-diagrama-pizzaria.png)
