@@ -228,3 +228,70 @@ Inicio
       
 Fimalgoritmo
 ```
+
+### Caixa Eletrônico
+```
+Algoritmo "Caixa Eletrônico"
+// Caixa eletrônico simples - Enquanto
+
+
+Var
+   opcao: inteiro
+   saldo, valor: real
+
+
+Inicio
+      EscrevaL("Caixa Eletrônico Simples")
+      EscrevaL()
+
+      saldo <- 1000
+      opcao <- 1
+
+      ENQUANTO opcao <> 0 FACA
+
+      EscrevaL("[1] - Consultar saldo")
+      Escreval("[2] - Depositar")
+      EscrevaL("[3] - Saque")
+      EscrevaL("[0] - Sair")
+      EscrevaL("Escolha uma das opções acima")
+      Leia(opcao)
+
+      ESCOLHA opcao FACA
+              CASO 1
+                   EscrevaL("Saldo atual: R$",saldo:0:2)
+                   EscrevaL()
+              CASO 2
+                   Escreva("Digite o valor do depósito: R$")
+                   Leia(valor)
+
+                   saldo <- saldo + valor
+
+                   EscrevaL("Deposito realizado com sucesso!")
+                   EscrevaL("Novo saldo: R$",saldo:0:2)
+                   Escreval()
+              CASO 3
+                   Escreva("Digite o valor do saque: R$")
+                   Leia(valor)
+
+                   SE valor <= saldo ENTAO
+                      saldo <- saldo - valor
+                      EscrevaL("Saque realizado com sucesso!")
+                      EscrevaL("Novo saldo: R$",saldo:0:2)
+                      SENAO
+                           EscrevaL("Saldo insuficiente!")
+                   FIMSE
+
+              CASO 0
+                   EscrevaL()
+                   EscrevaL("Programa encerrado...")
+                   EscrevaL()
+              OUTROCASO
+              EscrevaL()
+              EscrevaL("Opção invalida")
+              EscrevaL()
+      FIMESCOLHA
+      FIMENQUANTO
+
+
+Fimalgoritmo
+```
